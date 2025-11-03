@@ -12,9 +12,10 @@ Asignatura: *Programación para Ciberseguridad*
 
 ## 👤 Autores
 
-- **Valeria Rocha Solís**  
+- **Valeria Rocha Solís**
   Propietaria del repositorio y titular de la licencia MIT  
-  *(Agregar nombres conforme acepten la invitación de colaboración)*
+  *(agregar ene l orden en el que acepten la solicitud)*
+  **Sofia del Carmen Chavez Reyna**
 
 - **Supervisión académica:**  
   Dra. Perla Marlene Viera González
