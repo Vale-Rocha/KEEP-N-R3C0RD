@@ -16,6 +16,7 @@ Asignatura: *Programación para Ciberseguridad*
   Propietaria del repositorio y titular de la licencia MIT  
   *(agregar ene l orden en el que acepten la solicitud)*
   **Sofia del Carmen Chavez Reyna**
+  **Héctor Adrián Quiroz González**
 
 - **Supervisión académica:**  
   Dra. Perla Marlene Viera González
