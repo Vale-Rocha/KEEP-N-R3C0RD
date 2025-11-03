@@ -10,16 +10,6 @@ Asignatura: *Programación para Ciberseguridad*
 
 ---
 
-## 📑 Índice
-
-- [Autores](#autores)
-- [Propósito del proyecto](#propósito-del-proyecto)
-- [Licencia de uso](#licencia-de-uso)
-- [Contenido disponible](#contenido-disponible)
-- [Actualizaciones](#actualizaciones)
-
----
-
 ## 👤 Autores
 
 - **Valeria Rocha Solís**  
