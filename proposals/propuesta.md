@@ -89,8 +89,8 @@ No se utilizarán datos reales, credenciales privadas ni información sensible.
 
 ## 🤝 Evidencia de Colaboración Inicial
 
-- [ ] Commits realizados por más de un integrante  
-- [ ] Actividad visible en GitHub desde el inicio del proyecto
+- [X] Commits realizados por más de un integrante  
+- [X] Actividad visible en GitHub desde el inicio del proyecto
 
 ---
 
