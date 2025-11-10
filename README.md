@@ -62,7 +62,7 @@ Se recomienda revisar las carpetas `/docs` y `/proposals` para conocer el progre
 
 ---
 
-## 🗃️ Créditos de archivos de prueba (ocultos y no ocultos)
+## 🗃️ Créditos de archivos de prueba[^1] (ocultos[^2] y no ocultos[^3])
 
 
 | Nombre del archivo     | Tipo     | Fuente     |
@@ -85,3 +85,7 @@ Se recomienda revisar las carpetas `/docs` y `/proposals` para conocer el progre
 | PIA_PC.txt      | TXT     | Cortesía de @Vale-Rocha     |
 | Sample.pdf      | PDF     | [Hekatron PDF Metadata Sample](https://www.hekatron.de/fileadmin/user_upload/testfolder/Sample.pdf)     |
 | sample-report.pdf      | PDF     | [Download Sample PDF Files](https://sample-files.com/documents/pdf/)     |
+
+[^1]: Hay archivos ocultos para agregar un nivel mayor de complejidad al momento de escanear los archivos. En `/samples` hay:
+[^2]:* [`archivos_prueba`](samples/archivos_prueba/) Para los 18 archivos completos
+[^3]:* [`archivos_prueba_unhidden`](samples/archivos_prueba_unhidden/) Para los 9 archivos no ocultos
