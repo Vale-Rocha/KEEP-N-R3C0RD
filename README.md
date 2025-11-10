@@ -68,7 +68,7 @@ Se recomienda revisar las carpetas `/docs` y `/proposals` para conocer el progre
 
 1. Se define la carpeta con archivos sintéticos **[Samples](#🗃️-Samples-[^1])** para su uso en las 3 tareas del PIA y se listan los créditos.
 2. Se estuvo trabajando en las 3 tareas (ver `/src` y `/achlog` [carpeta temporal]), pero se desarrolló a profundidad la segunda: Creación y comparación de Hashes.
-Se detalla más su proceso en `/docs/entregable_2`.
+Se detalla más su proceso en [`entregable_2.md`](docs/entregable_2.md).
 
 ---
 
