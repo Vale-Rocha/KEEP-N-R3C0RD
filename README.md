@@ -62,9 +62,9 @@ Se recomienda revisar las carpetas `/docs` y `/proposals` para conocer el progre
 
 ### Actualización para Entregable 2 (10/11/2025):
 
-[ ] Tarea 1: Logs \
-[x] Tarea 2: Hashes \
-[ ] Tarea 3: Metadatos
+- [ ] Tarea 1: Logs \
+- [x] Tarea 2: Hashes \
+- [ ] Tarea 3: Metadatos
 
 1. Se define la carpeta con archivos sintéticos **[Samples](#🗃️-Samples-[^1])** para su uso en las 3 tareas del PIA y se listan los créditos.
 2. Se estuvo trabajando en las 3 tareas (ver `/src` y `/achlog` [carpeta temporal]), pero se desarrolló a profundidad la segunda: Creación y comparación de Hashes.
