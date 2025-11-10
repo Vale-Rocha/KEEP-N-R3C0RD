@@ -62,3 +62,26 @@ Se recomienda revisar las carpetas `/docs` y `/proposals` para conocer el progre
 
 ---
 
+## 🗃️ Créditos de archivos de prueba (ocultos y no ocultos)
+
+
+| Nombre del archivo     | Tipo     | Fuente     |
+|--------------|---------------|---------------|
+| basic-data.csv       | CSV      |  [Available sample CSV files for download](https://sample-files.com/data/csv/)      |
+| IMG_5250.jpeg       | JPEG      | [ianare/exif-samples](https://github.com/ianare/exif-samples/blob/master/heic/IMG_5250.jpeg)     |
+|36-memory_error.jpg       | JPG      | [thatraghavarora/exif-sample-meta-data](https://github.com/thatraghavarora/exif-sample-meta-data/blob/main/tests/36-memory_error.jpg)      |
+| IPTC-GoogleImgSrcPmd_testimg01.jpg       | JPG      | [Example page showing a photo with embedded metadata ...](https://www.iptc.org/std-dev/photometadata/examples/google-licensable/example-page1.html)      |
+| nosotros.jpg       | JPG      | Cortesía de @Vale-Rocha      |
+| Bug_the_Cat.png      | PNG      | [File:Bug the Cat.png](https://commons.wikimedia.org/wiki/File:Bug_the_Cat.png)      |
+| lizard.png       | PNG      | [PNG Files Portable Network Graphics](https://people.sc.fsu.edu/~jburkardt/data/png/lizard.png)      |
+| MnistExamplesModified.png       | PNG      | [File:MnistExamplesModified.png](https://commons.wikimedia.org/wiki/File:MnistExamplesModified.png)      |
+| PNG_Test.png       | PNG      |[File: PNG Test.png](https://commons.wikimedia.org/wiki/File:PNG_Test.png)      |
+| Queen_Victoria_-_Queen_Victoria_in_1863.png      | PNG     | [File:Queen Victoria - Queen Victoria in 1863.png](https://commons.wikimedia.org/wiki/File:Queen_Victoria_-_Queen_Victoria_in_1863.png)     |
+| demo.docx      | DOCX     | [Demonstration of DOCX support in calibre](https://calibre-ebook.com/downloads/demos/demo.docx)     |
+| Descriptive Information.docx      | DOCX     |[Metadata: Sample Files](https://sites.uwm.edu/dltre/metadata/sample/)    |
+| sample.doc      | DOC     | [Use this document as a template if you are using Microsoft Word 6.0 or later](https://podcasts.ceu.edu/sites/podcasts.ceu.edu/files/sample.doc)    |
+| wd-spectools-word-sample-04.doc      | DOC     | [OASIS Word Specification Sample](https://www.oasis-open.org/spectools/docs/wd-spectools-word-sample-04.doc)     |
+| ascii-art.txt      | TXT     | [Sample TXT files for download](https://sample-files.com/downloads/documents/txt/ascii-art.txt)     |
+| PIA_PC.txt      | TXT     | Cortesía de @Vale-Rocha     |
+| Sample.pdf      | PDF     | [Hekatron PDF Metadata Sample](https://www.hekatron.de/fileadmin/user_upload/testfolder/Sample.pdf)     |
+| sample-report.pdf      | PDF     | [Download Sample PDF Files](https://sample-files.com/documents/pdf/)     |
