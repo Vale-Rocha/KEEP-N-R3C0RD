@@ -1,3 +1,4 @@
 # Carpeta de salida para resultados
 /out_PIA/
-
+/output/*
+!/output/.gitkeep
