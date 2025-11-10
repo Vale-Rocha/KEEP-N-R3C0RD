@@ -110,7 +110,7 @@ Principal responsable: Valeria R.S.
 
 Avances (aún no documentados) de la Tarea 1: Héctor A.Q.G.
 
-Avances tarea2 (sin generacion de hashes principales): Sofia D.C.CH.R
+Avances de la Tarea 2 (sin generación de hashes principales): Sofía D.C.CH.R.
 
 Avances (aún no documentados) de la Tarea 3: Hebert D.G.C.
 
