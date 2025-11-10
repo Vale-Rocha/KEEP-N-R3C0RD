@@ -1,0 +1,75 @@
+2025-11-10 01:36:51,679 - INFO - New files:
+2025-11-10 01:36:51,679 - INFO -  + demo_mod.docx
+2025-11-10 01:36:51,679 - INFO -  + sample-report_mod.pdf
+2025-11-10 01:36:51,679 - INFO -  + .IPTC-GoogleImgSrcPmd_testimg01_mod.jpg
+2025-11-10 01:36:51,680 - INFO -  + .ascii-art_mod.txt
+2025-11-10 01:36:51,680 - INFO -  + .Sample_mod.pdf
+2025-11-10 01:36:51,680 - INFO -  + .MnistExamplesModified_mod.png
+2025-11-10 01:36:51,680 - INFO -  + basic-data_mod.csv
+2025-11-10 01:36:51,680 - INFO -  + nosotros_mod.jpg
+2025-11-10 01:36:51,680 - INFO -  + PNG_Test_mod.png
+2025-11-10 01:36:51,680 - INFO -  + PIA_PC_mod.txt
+2025-11-10 01:36:51,683 - INFO -  + .Descriptive Information_mod.docx
+2025-11-10 01:36:51,683 - INFO -  + .IMG_5250_mod.jpeg
+2025-11-10 01:36:51,683 - INFO -  + .Queen_Victoria_-_Queen_Victoria_in_1863_mod.png
+2025-11-10 01:36:51,683 - INFO -  + lizard_mod.png
+2025-11-10 01:36:51,683 - INFO -  + .Bug_the_Cat_mod.png
+2025-11-10 01:36:51,683 - INFO -  + 36-memory_error_mod.jpg
+2025-11-10 01:36:51,683 - INFO - Unchanged files:
+2025-11-10 01:36:51,683 - INFO -  = .ascii-art.txt
+2025-11-10 01:36:51,684 - INFO -  = .Bug_the_Cat.png
+2025-11-10 01:36:51,684 - INFO -  = .Sample.pdf
+2025-11-10 01:36:51,684 - INFO -  = .MnistExamplesModified.png
+2025-11-10 01:36:51,684 - INFO -  = 36-memory_error.jpg
+2025-11-10 01:36:51,684 - INFO -  = sample-report.pdf
+2025-11-10 01:36:51,684 - INFO -  = .IMG_5250.jpeg
+2025-11-10 01:36:51,684 - INFO -  = lizard.png
+2025-11-10 01:36:51,684 - INFO -  = .Descriptive Information.docx
+2025-11-10 01:36:51,684 - INFO -  = basic-data.csv
+2025-11-10 01:36:51,684 - INFO -  = sample.doc
+2025-11-10 01:36:51,684 - INFO -  = nosotros.jpg
+2025-11-10 01:36:51,684 - INFO -  = .IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-10 01:36:51,684 - INFO -  = .Queen_Victoria_-_Queen_Victoria_in_1863.png
+2025-11-10 01:36:51,684 - INFO -  = PNG_Test.png
+2025-11-10 01:36:51,684 - INFO -  = .wd-spectools-word-sample-04.doc
+2025-11-10 01:36:51,684 - INFO -  = PIA_PC.txt
+2025-11-10 01:36:51,684 - INFO -  = demo.docx
+2025-11-10 01:36:51,685 - INFO - CSV saved in ./out_PIA\PIA_T2_CHECKhashes.csv
+2025-11-10 01:37:31,760 - INFO - New files:
+2025-11-10 01:37:31,760 - INFO -  + .IMG_5250_mod.jpeg
+2025-11-10 01:37:31,760 - INFO -  + .Sample_mod.pdf
+2025-11-10 01:37:31,760 - INFO -  + .Queen_Victoria_-_Queen_Victoria_in_1863_mod.png
+2025-11-10 01:37:31,760 - INFO -  + PNG_Test_mod.png
+2025-11-10 01:37:31,760 - INFO -  + basic-data_mod.csv
+2025-11-10 01:37:31,760 - INFO -  + PIA_PC_mod.txt
+2025-11-10 01:37:31,760 - INFO -  + 36-memory_error_mod.jpg
+2025-11-10 01:37:31,760 - INFO -  + .Bug_the_Cat_mod.png
+2025-11-10 01:37:31,760 - INFO -  + demo_mod.docx
+2025-11-10 01:37:31,760 - INFO -  + .IPTC-GoogleImgSrcPmd_testimg01_mod.jpg
+2025-11-10 01:37:31,760 - INFO -  + .Descriptive Information_mod.docx
+2025-11-10 01:37:31,760 - INFO -  + .ascii-art_mod.txt
+2025-11-10 01:37:31,760 - INFO -  + lizard_mod.png
+2025-11-10 01:37:31,760 - INFO -  + .MnistExamplesModified_mod.png
+2025-11-10 01:37:31,760 - INFO -  + nosotros_mod.jpg
+2025-11-10 01:37:31,761 - INFO -  + sample-report_mod.pdf
+2025-11-10 01:37:31,761 - INFO - Unchanged files:
+2025-11-10 01:37:31,761 - INFO -  = .ascii-art.txt
+2025-11-10 01:37:31,761 - INFO -  = PNG_Test.png
+2025-11-10 01:37:31,761 - INFO -  = .IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-10 01:37:31,761 - INFO -  = lizard.png
+2025-11-10 01:37:31,761 - INFO -  = 36-memory_error.jpg
+2025-11-10 01:37:31,761 - INFO -  = sample.doc
+2025-11-10 01:37:31,761 - INFO -  = .IMG_5250.jpeg
+2025-11-10 01:37:31,761 - INFO -  = .Descriptive Information.docx
+2025-11-10 01:37:31,761 - INFO -  = PIA_PC.txt
+2025-11-10 01:37:31,761 - INFO -  = .MnistExamplesModified.png
+2025-11-10 01:37:31,761 - INFO -  = .Sample.pdf
+2025-11-10 01:37:31,761 - INFO -  = demo.docx
+2025-11-10 01:37:31,761 - INFO -  = nosotros.jpg
+2025-11-10 01:37:31,761 - INFO -  = .wd-spectools-word-sample-04.doc
+2025-11-10 01:37:31,761 - INFO -  = .Queen_Victoria_-_Queen_Victoria_in_1863.png
+2025-11-10 01:37:31,761 - INFO -  = basic-data.csv
+2025-11-10 01:37:31,761 - INFO -  = sample-report.pdf
+2025-11-10 01:37:31,761 - INFO -  = .Bug_the_Cat.png
+2025-11-10 01:37:31,762 - INFO - CSV saved in ./out_PIA\PIA_T2_CHECKhashes.csv
+2025-11-10 01:37:31,763 - INFO - Record saved in ./out_PIA\PIA_hashes_20251110_013731.pickle

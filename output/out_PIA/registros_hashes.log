@@ -1,0 +1,20 @@
+2025-11-10 01:34:10,524 - INFO - Hashing: .Bug_the_Cat.png
+2025-11-10 01:34:10,525 - INFO - Hashing: .Descriptive Information.docx
+2025-11-10 01:34:10,533 - INFO - Hashing: .IMG_5250.jpeg
+2025-11-10 01:34:10,536 - INFO - Hashing: .IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-10 01:34:10,537 - INFO - Hashing: .MnistExamplesModified.png
+2025-11-10 01:34:10,540 - INFO - Hashing: .Queen_Victoria_-_Queen_Victoria_in_1863.png
+2025-11-10 01:34:10,541 - INFO - Hashing: .Sample.pdf
+2025-11-10 01:34:10,543 - INFO - Hashing: .ascii-art.txt
+2025-11-10 01:34:10,544 - INFO - Hashing: .wd-spectools-word-sample-04.doc
+2025-11-10 01:34:10,550 - INFO - Hashing: 36-memory_error.jpg
+2025-11-10 01:34:10,550 - INFO - Hashing: PIA_PC.txt
+2025-11-10 01:34:10,561 - INFO - Hashing: PNG_Test.png
+2025-11-10 01:34:10,561 - INFO - Hashing: basic-data.csv
+2025-11-10 01:34:10,563 - INFO - Hashing: demo.docx
+2025-11-10 01:34:10,564 - INFO - Hashing: lizard.png
+2025-11-10 01:34:10,565 - INFO - Hashing: nosotros.jpg
+2025-11-10 01:34:10,568 - INFO - Hashing: sample-report.pdf
+2025-11-10 01:34:10,569 - INFO - Hashing: sample.doc
+2025-11-10 01:34:10,570 - INFO - Record saved in ./out_PIA\PIA_hashes.pickle
+2025-11-10 01:34:10,571 - INFO - CSV saved in ./out_PIA\PIA_T2_hashes.csv
