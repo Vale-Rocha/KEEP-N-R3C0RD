@@ -80,8 +80,9 @@ def main():
     actuales = {ruta: calcular_hashes(ruta) for ruta in archivos}
     #se hace la comparacion
     resultados = comparar_hashes(anteriores, actuales)
-    #guarda un csv cin los datos actualizados
+    #guarda un csv con los datos actualizados
     guardar_csv(salida_csv, resultados)
     
 if __name__ == '__main__':
     main()
+
