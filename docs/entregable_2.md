@@ -110,6 +110,8 @@ Principal responsable: Valeria R.S.
 
 Avances (aún no documentados) de la Tarea 1: Héctor A.Q.G.
 
+Avances tarea2 (sin generacion de hashes principales): Sofia D.C.CH.R
+
 Avances (aún no documentados) de la Tarea 3: Hebert D.G.C.
 
 > En el próximo entregable se registrarán los avances mencionados, con el propósito de ser más completos.
@@ -119,6 +121,7 @@ Avances (aún no documentados) de la Tarea 3: Hebert D.G.C.
 ## 🧭 Observaciones
 
 - Aún se está decidiendo si se automatiza la simulación de cambios o se hace manualmente (considerar los logs de la Tarea 1 y partes de edición de la Tarea 3).
+- el avace de la detecion y modificacion de hashes se contempla para trabajar con los resultados de la tarea 1.
 - Falta cambiar a .jsonl los logs ya que se encuentran en texto plano (preguntar a la docente).
 - Ajustar formato de timestamps.
 - Complementar con las demás tareas para versión preliminar de un reporte de análisis forense.
