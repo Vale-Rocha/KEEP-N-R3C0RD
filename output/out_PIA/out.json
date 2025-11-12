@@ -1,0 +1,55 @@
+{
+ "exif": {
+  "C:\\Users\\heber\\Desktop\\samples\\36-memory_error.jpg": {
+   "datetime": "2002:04:21 00:30:33",
+   "size": 865978
+  },
+  "C:\\Users\\heber\\Desktop\\samples\\lizard.png": {
+   "datetime": "None",
+   "size": 134264
+  },
+  "C:\\Users\\heber\\Desktop\\samples\\nosotros.jpg": {
+   "datetime": "2025:10:10 15:58:45",
+   "size": 193806
+  },
+  "C:\\Users\\heber\\Desktop\\samples\\PNG_Test.png": {
+   "datetime": "None",
+   "size": 7365648
+  }
+ },
+ "docx": {
+  "C:\\Users\\heber\\Desktop\\samples\\demo.docx": {
+   "title": "DOCX Demo",
+   "author": "Kovid Goyal",
+   "creation_date": "2013-06-05 07:56:00+00:00",
+   "last_modified_by": "kovid",
+   "modification_date": "2013-06-20 06:14:00+00:00",
+   "size": 1311881
+  }
+ },
+ "pdf": {
+  "C:\\Users\\heber\\Desktop\\samples\\sample-report.pdf": {
+   "title": "Multi-Page Report PDF (A4 Size) | Sample-Files.com",
+   "author": "Jericho",
+   "creation_date": "2025-03-29 06:16:44+00:00",
+   "modification_date": "2025-03-29 06:16:42+00:00",
+   "size": 2515221
+  }
+ },
+ "ole": {
+  "C:\\Users\\heber\\Desktop\\samples\\sample.doc": {
+   "size": 98304,
+   "created_time": "2025-11-11 22:37:05.551609",
+   "modified_time": "2025-11-11 22:37:05.798176"
+  }
+ },
+ "txt": {
+  "C:\\Users\\heber\\Desktop\\samples\\PIA_PC.txt": {
+   "size": 5176,
+   "uid": 0,
+   "gid": 0,
+   "birthname": 1762922167300051600,
+   "file_attributes": 32
+  }
+ }
+}
