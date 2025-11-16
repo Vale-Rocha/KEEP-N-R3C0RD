@@ -1,6 +1,9 @@
 ﻿param(
     [Parameter(Mandatory=$true)]
-    [string]$MyPath
+    [string]$MyPath,
+    
+    [Parameter(Mandatory=$false)]
+    [string]$UpdateFlag = "False"
 )
 
 $HashArch = ".\hashes_samples.csv"
@@ -46,21 +49,17 @@ if (Test-Path $HashArch) {
         Write-Host "* Archivos **ELIMINADOS**: $($DelFiles.Count)" -ForegroundColor Red
         $DelFiles | Select-Object Path | Out-Host
     }
-
+    
     if ($Changes.Count -eq 0) {
         Write-Host "¡No se detectaron cambios en el contenido de los archivos!" -ForegroundColor White
+    $ShouldUpdate = [bool]::Parse($UpdateFlag)
+    }
+
+    if ($ShouldUpdate -eq $true) {
+        $Shot | Export-Csv $HashArch -NoTypeInformation
+        Write-Host "`nRegistro de hashes actualizado por decisión del usuario."
     } else {
-        while ($true) {
-            $op = Read-Host -Prompt "¿Desea actualizar el registro de hashes? (y/n)"
-            if ($op -eq "y") {
-                $Shot | Export-Csv $HashArch -NoTypeInformation
-                Write-Host "`nRegistro de hashes actualizado para la próxima comparación."
-                break
-            }
-            if ($op -eq "n") {
-                break
-            }
-        }
+        Write-Host "`nRegistro de hashes NO actualizado."
     }
 
 } else {
