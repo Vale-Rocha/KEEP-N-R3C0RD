@@ -1,1 +1,0 @@
-{'C:\\Users\\heber\\Desktop\\samples\\sample.doc': {'size': 98304, 'created_time': '2025-11-11 22:37:05.551609', 'modified_time': '2025-11-11 22:37:05.798176'}}
