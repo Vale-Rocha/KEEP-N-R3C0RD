@@ -1,0 +1,1 @@
+{'C:\\Users\\heber\\Desktop\\samples\\PIA_PC.txt': {'size': 5176, 'uid': 'N/A', 'gid': 'N/A', 'birthtime': '2025-11-11 22:36:07.300052', 'file_attributes': 32}}

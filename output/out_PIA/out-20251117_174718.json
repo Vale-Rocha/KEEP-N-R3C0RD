@@ -1,0 +1,71 @@
+{
+ "exif": {
+  "C:\\Users\\heber\\Desktop\\samples\\36-memory_error.jpg": {
+   "datetime": "2002:04:21 00:30:33",
+   "size": 865978,
+   "geolocalization": null
+  },
+  "C:\\Users\\heber\\Desktop\\samples\\carniceria.jpg": {
+   "datetime": "2020:07:03 16:14:31",
+   "size": 7403978,
+   "geolocalization": {
+    "Latitude(decimal)": 25.8041563,
+    "Longitud (decimal)": -100.3106975,
+    "Lat ref": "N",
+    "Lon ref": "W"
+   }
+  },
+  "C:\\Users\\heber\\Desktop\\samples\\lizard.png": {
+   "datetime": "None",
+   "size": 134264,
+   "geolocalization": "None"
+  },
+  "C:\\Users\\heber\\Desktop\\samples\\nosotros.jpg": {
+   "datetime": "2025:10:10 15:58:45",
+   "size": 193806,
+   "geolocalization": null
+  },
+  "C:\\Users\\heber\\Desktop\\samples\\PNG_Test.png": {
+   "datetime": "None",
+   "size": 7365648,
+   "geolocalization": "None"
+  }
+ },
+ "docx": {
+  "C:\\Users\\heber\\Desktop\\samples\\demo.docx": {
+   "title": "DOCX Demo",
+   "author": "Kovid Goyal",
+   "creation_date": "2013-06-05 07:56:00+00:00",
+   "last_modified_by": "kovid",
+   "modification_date": "2013-06-20 06:14:00+00:00",
+   "size": 1311881
+  }
+ },
+ "pdf": {
+  "C:\\Users\\heber\\Desktop\\samples\\sample-report.pdf": {
+   "title": "Multi-Page Report PDF (A4 Size) | Sample-Files.com",
+   "author": "Jericho",
+   "creation_date": "2025-03-29 06:16:44+00:00",
+   "modification_date": "2025-03-29 06:16:42+00:00",
+   "size": 2515221,
+   "xmp metadata": "None",
+   "creator": "Canva"
+  }
+ },
+ "ole": {
+  "C:\\Users\\heber\\Desktop\\samples\\sample.doc": {
+   "size": 98304,
+   "created_time": "2025-11-11 22:37:05.551609",
+   "modified_time": "2025-11-11 22:37:05.798176"
+  }
+ },
+ "txt": {
+  "C:\\Users\\heber\\Desktop\\samples\\PIA_PC.txt": {
+   "size": 5176,
+   "uid": "N/A",
+   "gid": "N/A",
+   "birthtime": "2025-11-11 22:36:07.300052",
+   "file_attributes": 32
+  }
+ }
+}

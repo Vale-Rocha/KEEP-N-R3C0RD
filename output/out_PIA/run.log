@@ -1,0 +1,37 @@
+2025-11-17 17:47:18,516 - INFO - Start flow
+2025-11-17 17:47:18,590 - INFO - ran function exifread_work once
+2025-11-17 17:47:18,594 - INFO - ran function exifread_work once
+2025-11-17 17:47:18,668 - INFO - ran function val_files once
+2025-11-17 17:47:18,668 - WARNING - PNG file does not have exif data.
+2025-11-17 17:47:18,669 - INFO - ran function exifread_work once
+2025-11-17 17:47:18,671 - INFO - ran function exifread_work once
+2025-11-17 17:47:18,671 - INFO - ran function txt_work once
+2025-11-17 17:47:18,672 - WARNING - PNG file does not have exif data.
+2025-11-17 17:47:18,674 - INFO - ran function exifread_work once
+2025-11-17 17:47:18,685 - INFO - ran function PyPDF2_work once
+2025-11-17 17:47:18,691 - INFO - ran function olemeta_work once
+2025-11-17 17:47:18,692 - INFO - ran a total of 9 'work' type functions
+2025-11-17 17:47:18,693 - INFO - Opened C:\Users\heber\Desktop\out/IMAGES.txt
+2025-11-17 17:47:18,693 - INFO - Wrote on C:\Users\heber\Desktop\out/IMAGES.txt
+2025-11-17 17:47:18,694 - INFO - Exited C:\Users\heber\Desktop\out/IMAGES.txt
+2025-11-17 17:47:18,695 - INFO - Opened C:\Users\heber\Desktop\out/PDF.txt
+2025-11-17 17:47:18,695 - INFO - Wrote on C:\Users\heber\Desktop\out/PDF.txt
+2025-11-17 17:47:18,695 - INFO - Exited C:\Users\heber\Desktop\out/PDF.txt
+2025-11-17 17:47:18,697 - INFO - Opened C:\Users\heber\Desktop\out/DOCX.txt
+2025-11-17 17:47:18,697 - INFO - Wrote on C:\Users\heber\Desktop\out/DOCX.txt
+2025-11-17 17:47:18,698 - INFO - Exited C:\Users\heber\Desktop\out/DOCX.txt
+2025-11-17 17:47:18,699 - INFO - Opened C:\Users\heber\Desktop\out/OLE.txt
+2025-11-17 17:47:18,699 - INFO - Wrote on C:\Users\heber\Desktop\out/OLE.txt
+2025-11-17 17:47:18,700 - INFO - Exited C:\Users\heber\Desktop\out/OLE.txt
+2025-11-17 17:47:18,703 - INFO - Opened C:\Users\heber\Desktop\out/TEXT.txt
+2025-11-17 17:47:18,704 - INFO - Wrote on C:\Users\heber\Desktop\out/TEXT.txt
+2025-11-17 17:47:18,704 - INFO - Exited C:\Users\heber\Desktop\out/TEXT.txt
+2025-11-17 17:47:18,705 - INFO - Entered make_picke function
+2025-11-17 17:47:18,707 - INFO - Opened C:\Users\heber\Desktop\out/out-20251117_174718.pickle
+2025-11-17 17:47:18,707 - INFO - Wrote on C:\Users\heber\Desktop\out/out-20251117_174718.pickle
+2025-11-17 17:47:18,708 - INFO - Exited C:\Users\heber\Desktop\out/out-20251117_174718.pickle
+2025-11-17 17:47:18,709 - INFO - Entered make_json function
+2025-11-17 17:47:18,711 - INFO - Opened C:\Users\heber\Desktop\out/out-20251117_174718.json
+2025-11-17 17:47:18,711 - INFO - Wrote on C:\Users\heber\Desktop\out/out-20251117_174718.json
+2025-11-17 17:47:18,712 - INFO - Exited C:\Users\heber\Desktop\out/out-20251117_174718.json
+2025-11-17 17:47:18,713 - INFO - End flow

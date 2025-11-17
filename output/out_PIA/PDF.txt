@@ -1,0 +1,1 @@
+{'C:\\Users\\heber\\Desktop\\samples\\sample-report.pdf': {'title': 'Multi-Page Report PDF (A4 Size) | Sample-Files.com', 'author': 'Jericho', 'creation_date': '2025-03-29 06:16:44+00:00', 'modification_date': '2025-03-29 06:16:42+00:00', 'size': 2515221, 'xmp metadata': 'None', 'creator': 'Canva'}}
