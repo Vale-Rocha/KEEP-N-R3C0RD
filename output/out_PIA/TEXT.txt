@@ -1,1 +1,0 @@
-{'C:\\Users\\heber\\Desktop\\samples\\PIA_PC.txt': {'size': 5176, 'uid': 0, 'gid': 0, 'birthname': 1762922167300051600, 'file_attributes': 32}}
