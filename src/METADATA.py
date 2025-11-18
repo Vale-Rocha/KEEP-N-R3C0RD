@@ -10,7 +10,6 @@ import oletools.olemeta as ol
 import olefile
 import json
 import datetime as dt
-import piexif
 import platform
 import logging as ln
 
@@ -301,33 +300,33 @@ def load_pickle(path=PICKLE_INFO_PATH):
     with open(path, "rb") as f:
         return pickle.load(f)
 
-def comparar(old_registry:dict,new_registry:dict):
+def compare(old_registry:dict,new_registry:dict):
     results = {}
     for extension in ["exif", "docx", "pdf", "ole", "txt"]:
         old_data = old_registry.get(extension, {})
         new_data = new_registry.get(extension, {})
-        nuevos = {}
-        modificados = {}
-        sin_cambios = {}
-        eliminados = {}
+        new_files = {}
+        modified_files = {}
+        unchanged_files = {}
+        deleted_files = {}
         #verificar primero si hay nuevos o modificados
         for path, new_meta in new_data.items():
             if path not in old_data:
-                nuevos[path] = new_meta
+                new_files[path] = new_meta
             elif new_meta != old_data[path]:
-                modificados[path] = new_meta
+                modified_files[path] = new_meta
             else:
-                sin_cambios[path] = new_meta
+                unchanged_files[path] = new_meta
         #verificar eliminados
         for path in old_data:
             if path not in new_data:
-                eliminados[path] = old_data[path]
+                deleted_files[path] = old_data[path]
         results[extension] = {
-            "nuevos": nuevos,
-            "modificados":modificados,
-            "sin_cambios": sin_cambios,
-            "eliminados": eliminados
-            }
+            "new": new_files,
+            "modified": modified_files,
+            "unchanged": unchanged_files,
+            "deleted": deleted_files
+         }
     return results
 
 def main():
@@ -344,7 +343,7 @@ def main():
         old_registry = load_pickle(PICKLE_INFO_PATH)
         
     #para conparar los reguistros:
-        comparacion = comparar(old_registry, registry)
+        comparacion = compare(old_registry, registry)
 
     #para guardar los resultados de la comparacion en un .json
         with open(f"{METADATA_INFO_PATH}/comparacion.json", "w") as f:
@@ -361,4 +360,5 @@ def main():
     
     ln.info("End flow")
 main()
+
     
