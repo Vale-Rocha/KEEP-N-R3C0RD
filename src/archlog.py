@@ -3,6 +3,8 @@ import sys
 import ctypes
 import subprocess
 import time
+import csv
+import re
 from pathlib import Path
 
 def pws(scrpt, path, update_flag=None): 
@@ -89,7 +91,6 @@ def arch_log():
                     with open(log_file, 'r') as f:
                         print(f.read(), end='')
                     os.remove(log_file)
-                
             else:
                  print("La ejecución como administrador fue rechazada o falló al lanzarse.")
 

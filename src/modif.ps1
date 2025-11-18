@@ -6,8 +6,10 @@
     [string]$UpdateFlag = "False"
 )
 
+cd $PSScriptRoot
 $HashArch = ".\hashes_samples.csv"
 $ShotTime = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+$OutCsv = ".\modifs.csv"
 
 Write-Host "--- Monitoreo de Contenido por Hash en '$MyPath' ---" -ForegroundColor Cyan
 Write-Host "Tipo de Hash: SHA256"
@@ -26,34 +28,40 @@ if (Test-Path $HashArch) {
     Write-Host "`n[ $ShotTime ] Informe de Cambios Detectados:" -ForegroundColor Yellow
     Write-Host "----------------------------------------------------------------"
     
-    $DelFiles = $Changes | Where-Object {$_.SideIndicator -eq '<='}
-
-    $CurrentChanges = $Changes | Where-Object {$_.SideIndicator -eq '=>'}
-
-    $PrevPaths = $Prev.Path
-    $NewFiles = $CurrentChanges | Where-Object { $PrevPaths -notcontains $_.Path }
+    $Report = @()
     
-    $ModFiles = $CurrentChanges | Where-Object { $PrevPaths -contains $_.Path }
-
-    if ($NewFiles -ne $null) {
-        Write-Host "* Archivos **NUEVOS**: $($NewFiles.Count)" -ForegroundColor Green
-        $NewFiles | Select-Object Path | Out-Host 
-    }
-
-    if ($ModFiles -ne $null) {
-        Write-Host "* Archivos **MODIFICADOS** (Cambio de Hash): $($ModFiles.Count)" -ForegroundColor Blue
-        $ModFiles | Select-Object Path | Out-Host
-    }
-
-    if ($DelFiles -ne $null) {
+    $DelFiles = $Changes | Where-Object {$_.SideIndicator -eq '<='}
+    if (@($DelFiles).Count -gt 0) {
         Write-Host "* Archivos **ELIMINADOS**: $($DelFiles.Count)" -ForegroundColor Red
         $DelFiles | Select-Object Path | Out-Host
+        $Report += $DelFiles | Select-Object Path, Hash, @{N='TipoCambio'; E={'ELIMINADO'}}
+    }
+
+    $CurrentChanges = $Changes | Where-Object {$_.SideIndicator -eq '=>'}
+    $PrevPaths = $Prev.Path
+    
+    $NewFiles = $CurrentChanges | Where-Object { $PrevPaths -notcontains $_.Path }
+    if (@($NewFiles).Count -gt 0) {
+        Write-Host "* Archivos **NUEVOS**: $($NewFiles.Count)" -ForegroundColor Green
+        $NewFiles | Select-Object Path | Out-Host 
+        $Report += $NewFiles | Select-Object Path, Hash, @{N='TipoCambio'; E={'NUEVO'}}
+    }
+
+    $ModFiles = $CurrentChanges | Where-Object { $PrevPaths -contains $_.Path }
+    if (@($ModFiles).Count -gt 0) {
+        Write-Host "* Archivos **MODIFICADOS** (Cambio de Hash): $($ModFiles.Count)" -ForegroundColor Blue
+        $ModFiles | Select-Object Path | Out-Host
+        $Report += $ModFiles | Select-Object Path, Hash, @{N='TipoCambio'; E={'MODIFICADO'}}
     }
     
-    if ($Changes.Count -eq 0) {
+    if (@($Report).Count -gt 0) {
+        $Report | Export-Csv $OutCsv -NoTypeInformation
+        Write-Host "`n✅ Reporte de cambios (Delta) generado en: $OutCsv" -ForegroundColor Green
+    } else {
         Write-Host "¡No se detectaron cambios en el contenido de los archivos!" -ForegroundColor White
-    $ShouldUpdate = [bool]::Parse($UpdateFlag)
     }
+    
+    $ShouldUpdate = [bool]::Parse($UpdateFlag)
 
     if ($ShouldUpdate -eq $true) {
         $Shot | Export-Csv $HashArch -NoTypeInformation

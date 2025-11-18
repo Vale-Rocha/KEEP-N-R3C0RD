@@ -1,11 +1,8 @@
-﻿# REQUIERE PERMISOS DE ADMINISTRADOR
-# Este script sobreescribe 'out.tmp' en cada ejecución.
-
-cd $PSScriptRoot
+﻿cd $PSScriptRoot
 [DateTime]$Yesterday = (Get-Date).AddDays(-1)
 
-# --- Variables de Configuración ---
-$RutaSalida = ".\out.tmp"
+$OutTmp = ".\out.tmp"
+$OutCsv = ".\logins.csv"
 $SecFilter = @{
     LogName = 'Security'
     Id = 4624
@@ -14,16 +11,12 @@ $SecFilter = @{
 $LogonTypes = "2", "10", "7" # Interactiva, RDP, Desbloqueo
 $NonRelv = "SYSTEM", "LOCAL SERVICE", "NETWORK SERVICE", "*$"
 
-# --- 1. Obtención y Filtrado de Eventos ---
-
 $Logins = (Get-WinEvent -FilterHashtable $SecFilter -ErrorAction SilentlyContinue)
 
 Write-Host "Inicios de Sesión de USUARIOS desde $($Yesterday.ToString()): " -ForegroundColor Cyan
 Write-Host "---------------------------------------------------------------------------------------------------"
 
-# --- 2. Inicializar el Archivo de Salida (SOBRESCRIBIR) ---
-
-"--- Informe de Inicios de Sesión Relevantes: $(Get-Date -Format "yyyy-MM-dd HH:mm:ss") ---" | Set-Content -Path $RutaSalida
+"--- Informe de Inicios de Sesión Relevantes: $(Get-Date -Format "yyyy-MM-dd HH:mm:ss") ---" | Set-Content -Path $OutTmp
 
 if ($Logins) {
     $LoginsFilt = $Logins | Where-Object {
@@ -34,28 +27,29 @@ if ($Logins) {
         ($Usr -notlike "*$")
     }
 
-    # --- 3. Escribir Resultados ---
-
     if (@($LoginsFilt).Count -gt 0) {
-        # Escribir el conteo (AÑADIR)
-        "Total de inicios de sesión encontrados: $(@($LoginsFilt).Count)" | Add-Content -Path $RutaSalida
-        " " | Add-Content -Path $RutaSalida
+        $Count = @($LoginsFilt).Count
 
-        # Escribir la tabla formateada (AÑADIR)
         $LoginsFilt | Select-Object TimeCreated,
-            @{N='Usr'; E={$_.Properties[5].Value}},
-            @{N='LogonTyp'; E={$_.Properties[8].Value}},
+            @{N='Usuario'; E={$_.Properties[5].Value}},
+            @{N='TipoLogon'; E={$_.Properties[8].Value}},
             MachineName |
-        Format-Table -AutoSize -Wrap | Out-String | Add-Content -Path $RutaSalida
+        Export-Csv $OutCsv -NoTypeInformation
+
+        "Total de inicios de sesión encontrados: $Count. (Datos completos exportados a $OutCsv)" | Add-Content -Path $OutTmp
+        
+        $LoginsFilt | Select-Object TimeCreated, 
+            @{N='Usuario'; E={$_.Properties[5].Value}}, 
+            @{N='TipoLogon'; E={$_.Properties[8].Value}}, 
+            MachineName |
+        Format-Table -AutoSize -Wrap | Out-String | Add-Content -Path $OutTmp
 
     } else {
-        # Escribir mensaje de no encontrados (AÑADIR)
-        "No se encontraron inicios de sesión relevantes en las últimas 24 horas." | Add-Content -Path $RutaSalida
+        "No se encontraron inicios de sesión relevantes en las últimas 24 horas." | Add-Content -Path $OutTmp
     }
 
 } else {
-    # Escribir mensaje de error de acceso (AÑADIR)
-    "No se encontraron eventos de inicio de sesión (4624) en el registro de Seguridad. (VERIFICAR PERMISOS DE ADMINISTRADOR)" | Add-Content -Path $RutaSalida
+    "No se encontraron eventos de inicio de sesión (4624) en el registro de Seguridad. (VERIFICAR PERMISOS DE ADMINISTRADOR)" | Add-Content -Path $OutTmp
 }
 
-Write-Host "Informe de accesos guardado y sobrescrito en: $RutaSalida" -ForegroundColor Green
+Write-Host "Informe de accesos guardado y sobrescrito en: $OutTmp" -ForegroundColor Green
