@@ -71,8 +71,9 @@ Los archivos hipotéticos involucran:
 
 ## 🧭 Observaciones
 
--[ ] Falta terminar el script de comparación final, aún es muy primitivo y tiene errores de lógica.
--[ ] Queda pendiente el script para la IA (ya se planteó su uso, pero falta implementarlo).
--[X] Se resolvió el análisis de todos los metadatos de los archivos (ocultos y no ocultos) considerando los diferentes tipos y formatos.
--[X] Se estructuró un menú secundario para las tareas de PowerShell y que fuera más organizada su invocación en Python.
+- [ ] Falta terminar el script de comparación final, aún es muy primitivo y tiene errores de lógica.
+- [ ] Queda pendiente el script para la IA (ya se planteó su uso, pero falta implementarlo).
+- [X] Se resolvió el análisis de todos los metadatos de los archivos (ocultos y no ocultos) considerando los diferentes tipos y formatos.
+- [X] Se estructuró un menú secundario para las tareas de PowerShell y que fuera más organizada su invocación en Python.
+
  
