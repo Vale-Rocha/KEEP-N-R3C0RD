@@ -70,6 +70,18 @@ Se recomienda revisar las carpetas `/docs` y `/proposals` para conocer el progre
 2. Se estuvo trabajando en las 3 tareas (ver `/src` y `/achlog` [carpeta temporal]), pero se desarrolló a profundidad la segunda: Creación y comparación de Hashes.
 Se detalla más su proceso en [`entregable_2.md`](docs/entregable_2.md).
 
+### Actualización para Entregable 3 (19/11/2025):
+
+- [X] Tarea 1: Logs \
+- [ ] Tarea 2: Hashes \
+- [X] Tarea 3: Metadatos
+
+1. Se establecen los scripts para logs, inicios de sesión y metadatos.
+2. Se inicia con el script integrador para las 3 tareas [`principal.py`](src/principal.py); NO ESTÁ TERMINADO, sigue en desarrollo.
+3. Se crea una nueva carpeta para los prompts de IA (ver `/prompts`).
+4. Se plantea el uso de la IA para elaboración de hipótesis posterior a la comparación de marcas de tiempo (ver [`ai_plan.md`](docs/ai_plan.md) ) y el template inicial ([`prompt_v1.json`](prompts/prompt_v1.json).
+5. Revisar [`entregable_3.md`](docs/entregable_3.md) para comprender la lógica de la integración del proyecto y la IA.
+
 ---
 
 ## 🗃️ Samples[^1] 
