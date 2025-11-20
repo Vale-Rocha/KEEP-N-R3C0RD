@@ -5,7 +5,7 @@ import json
 import csv
 
 # Carpeta donde están los JSON
-CARPETA = rCARPETA = r"C:\Users\Latitude 3520\OneDrive\Escritorio\ScriptsPIA\YPUR OUTPUT"
+CARPETA = rCARPETA = r".\YPUR OUTPUT"
 
 
 def obtener_ultimo_json(carpeta):
@@ -153,3 +153,4 @@ elif opcion == '4':
 
 else:
     print("Opción no válida. Por favor, seleccione una opción del 1 al 4.") 
+
