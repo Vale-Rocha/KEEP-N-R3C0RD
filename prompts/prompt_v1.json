@@ -1,0 +1,35 @@
+{
+  "version": "3.0" , #(se está considerando la versión 4.0)
+  "tarea": "Generar un análisis forense preliminar con base en archivos CSV proporcionados.",
+  "template": {
+    "archivos_entrada": {
+      "coincidencias": "Contenido del archivo coincidencias.csv",
+      "hash_status": "Contenido del archivo PIA_T2_CHECKhashes.csv"
+    },
+    "objetivo": "Elaborar hipótesis no conclusivas basadas en los datos proporcionados.",
+
+    "estructura_respuesta": [
+      "1. Resumen inicial",
+      "2. Hallazgos relevantes",
+      "3. Correlación temporal entre eventos",
+      "4. Análisis de integridad (hashes)",
+      "5. Hipótesis plausibles (NO conclusiones)",
+      "6. Recomendaciones y advertencias sobre la modificación no autorizada de archivos."
+    ]
+
+  },
+  "instrucciones": [
+    "Lee y analiza cuidadosamente los datos proporcionados en los archivos CSV.",
+    "Identifica patrones, anomalías temporales o correlaciones entre:",
+    "- Inicios de sesión (4624)",
+    "- Eventos críticos o de error del sistema",
+    "- Cambios en metadatos de archivos",
+    "- Estado de integridad basado en hashes",
+    "Elabora hipótesis plausibles, pero evita afirmaciones deterministas o conclusiones definitivas.",
+    "Utiliza un lenguaje objetivo, técnico y en tono de informe.",
+    "Considera el principio de mínima especulación: solo formula hipótesis basadas en datos observados.",
+    "No inventes fechas, datos ni registros que no estén en los archivos suministrados.",
+    "Presenta tu análisis siguiendo estrictamente la estructura definida en el campo 'estructura_respuesta'.",
+    "Evita utilizar tecnicismos legales y mantén un nivel de explicación accesible, sin asumir conocimientos avanzados del usuario."
+  ]
+}
