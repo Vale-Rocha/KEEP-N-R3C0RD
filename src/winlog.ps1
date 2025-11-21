@@ -4,6 +4,7 @@
 )
 
 $Mypath = $null
+$OutCsv = "./critical.csv"
 
 $CheckTime = 24
 $Limit = (Get-Date).AddHours(-$CheckTime)
@@ -19,7 +20,8 @@ $Events = Get-WinEvent -FilterHashtable @{
 
 if ($Events) {
     $Events | Select-Object TimeCreated, Id, LevelDisplayName, ProviderName, Message |
-    Format-Table -AutoSize
+    Format-Table -AutoSize | Export-Csv $OutCsv -NoTypeInformation
 } else {
     Write-Host "No se encontraron Events Críticos/Error en las últimas $CheckTime horas." -ForegroundColor Yellow
 }
+
