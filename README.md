@@ -92,7 +92,7 @@ Se detalla más su proceso en [`entregable_2.md`](docs/entregable_2.md).
 2. Se crea el script de comparación para flujo de correlaciones [`comparison.py`](scripts/comparison.py).
 3. Se hace pulido de los scripts previos en `/src` y se encuentran (temporalmente, con sus modificaciones) en `/scripts`.
 4. Se crea el script para el uso de la IA [`AI_prompt.py`](scripts/AI_prompt.py).
-5. ## No hay ejemplos de salida en `/output` para esta entrega. Se realizarán antes del Entregable 5.
+5. **No hay ejemplos de salida en `/output` para esta entrega. Se realizarán antes del Entregable 5.**
 6. Revisar [`entregable_4.md`](docs/entregable_4.md) para las actualizaciones y lógica del script prinicipal, además de las decisiones técnicas.
    
 ---
