@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.txt)
 [![Estado del proyecto](https://img.shields.io/badge/Estado-En%20desarrollo-blue)](#actualizaciones)
-[![Lenguaje principal](https://img.shields.io/badge/Lenguaje-Python%2FBash%2FPowerShell-green)](#contenido-disponible)
+[![Lenguaje principal](https://img.shields.io/badge/Lenguaje-Python%2FPowerShell-green)](#contenido-disponible)
 
 Repositorio para el Producto Integrador de Aprendizaje (PIA)  
 Licenciatura en Sistemas y Tecnologías de la Información  
@@ -82,6 +82,19 @@ Se detalla más su proceso en [`entregable_2.md`](docs/entregable_2.md).
 4. Se plantea el uso de la IA para elaboración de hipótesis posterior a la comparación de marcas de tiempo (ver [`ai_plan.md`](docs/ai_plan.md) ) y el template inicial ([`prompt_v1.json`](prompts/prompt_v1.json).
 5. Revisar [`entregable_3.md`](docs/entregable_3.md) para comprender la lógica de la integración del proyecto y la IA.
 
+### Actualización para Entregable 4 (21/11/2025):
+
+- [X] Tarea 1: Logs \
+- [X] Tarea 2: Hashes \
+- [X] Tarea 3: Metadatos
+
+1. Se crea el script principal que une (tentativamente) a las 3 tareas [`main.py`](scripts/main.py).
+2. Se crea el script de comparación para flujo de correlaciones [`comparison.py`](scripts/comparison.py).
+3. Se hace pulido de los scripts previos en `/src` y se encuentran (temporalmente, con sus modificaciones) en `/scripts`.
+4. Se crea el script para el uso de la IA [`AI_prompt.py`](scripts/AI_prompt.py).
+5. ## No hay ejemplos de salida en `/output` para esta entrega. Se realizarán antes del Entregable 5.
+6. Revisar [`entregable_4.md`](docs/entregable_4.md) para las actualizaciones y lógica del script prinicipal, además de las decisiones técnicas.
+   
 ---
 
 ## 🗃️ Samples[^1] 
