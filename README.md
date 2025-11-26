@@ -1,8 +1,10 @@
 # 🧠 KEEP-N-R3C0RD
 
+![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.txt)
-[![Estado del proyecto](https://img.shields.io/badge/Estado-En%20desarrollo-blue)](#actualizaciones)
+[![Estado del proyecto](https://img.shields.io/badge/Estado-Preliminar-blue)](#Preliminar)
 [![Lenguaje principal](https://img.shields.io/badge/Lenguaje-Python%2FPowerShell-green)](#contenido-disponible)
+
 
 Repositorio para el Producto Integrador de Aprendizaje (PIA)  
 Licenciatura en Sistemas y Tecnologías de la Información  
@@ -94,7 +96,19 @@ Se detalla más su proceso en [`entregable_2.md`](docs/entregable_2.md).
 4. Se crea el script para el uso de la IA [`AI_prompt.py`](scripts/AI_prompt.py).
 5. **No hay ejemplos de salida en `/output` para esta entrega. Se realizarán antes del Entregable 5.**
 6. Revisar [`entregable_4.md`](docs/entregable_4.md) para las actualizaciones y lógica del script prinicipal, además de las decisiones técnicas.
-   
+
+### Actualización para Entregable Final (26/11/2025):
+
+- [X] Tarea 1: Logs \
+- [X] Tarea 2: Hashes \
+- [X] Tarea 3: Metadatos
+
+1. Se establece finalmente el script principal que une (tentativamente) a las 3 tareas [`main.py`](scripts/main.py).
+2. Se establece finalmente el script de comparación para flujo de correlaciones [`comparison.py`](scripts/comparison.py).
+3. Se purga `/src` , `/scripts` y `/output/out_IA` para la versión final.
+4. Se integra de lleno la IA con [`AI_prompt.py`](scripts/AI_prompt.py) ya pulido.
+5. Revisar [`reporte_final.md`](docs/reporte_final.md) para actualizaciones, comentarios y aprendizajes finales.
+
 ---
 
 ## 🗃️ Samples[^1] 
