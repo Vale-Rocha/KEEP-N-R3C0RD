@@ -1,20 +1,379 @@
-2025-11-10 01:34:10,524 - INFO - Hashing: .Bug_the_Cat.png
-2025-11-10 01:34:10,525 - INFO - Hashing: .Descriptive Information.docx
-2025-11-10 01:34:10,533 - INFO - Hashing: .IMG_5250.jpeg
-2025-11-10 01:34:10,536 - INFO - Hashing: .IPTC-GoogleImgSrcPmd_testimg01.jpg
-2025-11-10 01:34:10,537 - INFO - Hashing: .MnistExamplesModified.png
-2025-11-10 01:34:10,540 - INFO - Hashing: .Queen_Victoria_-_Queen_Victoria_in_1863.png
-2025-11-10 01:34:10,541 - INFO - Hashing: .Sample.pdf
-2025-11-10 01:34:10,543 - INFO - Hashing: .ascii-art.txt
-2025-11-10 01:34:10,544 - INFO - Hashing: .wd-spectools-word-sample-04.doc
-2025-11-10 01:34:10,550 - INFO - Hashing: 36-memory_error.jpg
-2025-11-10 01:34:10,550 - INFO - Hashing: PIA_PC.txt
-2025-11-10 01:34:10,561 - INFO - Hashing: PNG_Test.png
-2025-11-10 01:34:10,561 - INFO - Hashing: basic-data.csv
-2025-11-10 01:34:10,563 - INFO - Hashing: demo.docx
-2025-11-10 01:34:10,564 - INFO - Hashing: lizard.png
-2025-11-10 01:34:10,565 - INFO - Hashing: nosotros.jpg
-2025-11-10 01:34:10,568 - INFO - Hashing: sample-report.pdf
-2025-11-10 01:34:10,569 - INFO - Hashing: sample.doc
-2025-11-10 01:34:10,570 - INFO - Record saved in ./out_PIA\PIA_hashes.pickle
-2025-11-10 01:34:10,571 - INFO - CSV saved in ./out_PIA\PIA_T2_hashes.csv
+2025-11-25 23:48:27,334 - INFO - Hashing: .Bug_the_Cat.png
+2025-11-25 23:48:27,335 - INFO - Hashing: .Descriptive Information.docx
+2025-11-25 23:48:27,361 - INFO - Hashing: .IMG_5250.jpeg
+2025-11-25 23:48:27,370 - INFO - Hashing: .IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-25 23:48:27,371 - INFO - Hashing: .MnistExamplesModified.png
+2025-11-25 23:48:27,380 - INFO - Hashing: .Queen_Victoria_-_Queen_Victoria_in_1863.png
+2025-11-25 23:48:27,382 - INFO - Hashing: .Sample.pdf
+2025-11-25 23:48:27,382 - INFO - Hashing: .ascii-art.txt
+2025-11-25 23:48:27,384 - INFO - Hashing: .wd-spectools-word-sample-04.doc
+2025-11-25 23:48:27,386 - INFO - Hashing: 36-memory_error.jpg
+2025-11-25 23:48:27,386 - INFO - Hashing: PIA_PC.txt
+2025-11-25 23:48:27,414 - INFO - Hashing: PNG_Test.png
+2025-11-25 23:48:27,415 - INFO - Hashing: basic-data.csv
+2025-11-25 23:48:27,421 - INFO - Hashing: demo.docx
+2025-11-25 23:48:27,423 - INFO - Hashing: lizard.png
+2025-11-25 23:48:27,425 - INFO - Hashing: nosotros.jpg
+2025-11-25 23:48:27,437 - INFO - Hashing: sample-report.pdf
+2025-11-25 23:48:27,438 - INFO - Hashing: sample.doc
+2025-11-25 23:48:27,441 - INFO - Record saved in ./out_PIA\PIA_hashes.pickle
+2025-11-25 23:48:27,446 - INFO - CSV saved in ./out_PIA\PIA_T2_hashes.csv
+2025-11-25 23:48:51,328 - INFO - No changes detected in files.
+2025-11-25 23:48:51,332 - INFO - CSV saved in ./out_PIA\PIA_T2_CHECKhashes.csv
+2025-11-25 23:48:51,334 - INFO - Record saved in ./out_PIA\PIA_hashes_20251125_234851.pickle
+2025-11-25 23:49:03,268 - INFO - Analizando metadatos...
+2025-11-25 23:49:03,271 - WARNING - PNG file does not have exif data.
+2025-11-25 23:49:03,344 - WARNING - PNG file does not have exif data.
+2025-11-25 23:49:03,346 - WARNING - PNG file does not have exif data.
+2025-11-25 23:49:03,369 - WARNING - PNG file does not have exif data.
+2025-11-25 23:49:03,370 - WARNING - PNG file does not have exif data.
+2025-11-25 23:49:03,373 - INFO - ran a total of 17 'work' type functions
+2025-11-25 23:49:03,386 - INFO - Reporte de correlación (metadata_report.json) guardado en: out_PIA\metadata_report.json
+2025-11-25 23:49:03,387 - INFO - Entered make_picke function
+2025-11-25 23:49:03,393 - INFO - Updated base registry at out_PIA\metadata_out.pickle
+2025-11-25 23:49:03,393 - INFO - Entered make_json function
+2025-11-25 23:49:03,400 - INFO - Saved JSON report at out_PIA\metadata_out_20251125_234903.json
+2025-11-25 23:49:03,401 - INFO - Análisis de metadatos completado.
+
+2025-11-25 23:49:11,213 - INFO - Empezando comparación de timestamps entre archivos...
+2025-11-25 23:49:11,260 - INFO - Archivo metadata_report.json convertido a CSV.
+2025-11-25 23:49:11,271 - INFO - Archivos CSV leídos correctamente.
+2025-11-25 23:49:11,292 - INFO - Columna de datetimes en metadata normalizada.
+2025-11-25 23:49:11,296 - INFO - Columna unificada de Epoch Timestamps creada en metadata.
+2025-11-25 23:49:11,308 - INFO - Comparación entre login_report.csv y metadata_report.csv completada.
+2025-11-25 23:49:11,309 - INFO - Comparación entre winlog_events.csv y metadata_report.csv completada.
+2025-11-25 23:49:11,309 - INFO - Consolidando resultados de correlación para el reporte final...
+2025-11-25 23:51:21,050 - INFO - Hashing: .Bug_the_Cat.png
+2025-11-25 23:51:21,051 - INFO - Hashing: .Descriptive Information.docx
+2025-11-25 23:51:21,061 - INFO - Hashing: .IMG_5250.jpeg
+2025-11-25 23:51:21,065 - INFO - Hashing: .IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-25 23:51:21,066 - INFO - Hashing: .MnistExamplesModified.png
+2025-11-25 23:51:21,073 - INFO - Hashing: .Queen_Victoria_-_Queen_Victoria_in_1863.png
+2025-11-25 23:51:21,073 - INFO - Hashing: .Sample.pdf
+2025-11-25 23:51:21,074 - INFO - Hashing: .ascii-art.txt
+2025-11-25 23:51:21,075 - INFO - Hashing: .wd-spectools-word-sample-04.doc
+2025-11-25 23:51:21,077 - INFO - Hashing: 36-memory_error.jpg
+2025-11-25 23:51:21,078 - INFO - Hashing: PIA_PC.txt
+2025-11-25 23:51:21,092 - INFO - Hashing: PNG_Test.png
+2025-11-25 23:51:21,093 - INFO - Hashing: basic-data.csv
+2025-11-25 23:51:21,096 - INFO - Hashing: demo.docx
+2025-11-25 23:51:21,097 - INFO - Hashing: lizard.png
+2025-11-25 23:51:21,099 - INFO - Hashing: nosotros.jpg
+2025-11-25 23:51:21,109 - INFO - Hashing: sample-report.pdf
+2025-11-25 23:51:21,110 - INFO - Hashing: sample.doc
+2025-11-25 23:51:21,113 - INFO - Record saved in ./out_PIA\PIA_hashes.pickle
+2025-11-25 23:51:21,117 - INFO - CSV saved in ./out_PIA\PIA_T2_hashes.csv
+2025-11-25 23:51:25,704 - INFO - Analizando metadatos...
+2025-11-25 23:51:25,706 - WARNING - PNG file does not have exif data.
+2025-11-25 23:51:25,728 - WARNING - PNG file does not have exif data.
+2025-11-25 23:51:25,732 - WARNING - PNG file does not have exif data.
+2025-11-25 23:51:25,752 - WARNING - PNG file does not have exif data.
+2025-11-25 23:51:25,753 - WARNING - PNG file does not have exif data.
+2025-11-25 23:51:25,757 - INFO - ran a total of 17 'work' type functions
+2025-11-25 23:51:25,767 - INFO - Reporte de correlación (metadata_report.json) guardado en: out_PIA\metadata_report.json
+2025-11-25 23:51:25,768 - INFO - Registro previo encontrado. Comparando con la ejecución anterior...
+
+2025-11-25 23:51:25,772 - INFO - Entered make_picke function
+2025-11-25 23:51:25,781 - INFO - Updated base registry at out_PIA\metadata_out.pickle
+2025-11-25 23:51:25,781 - INFO - Entered make_json function
+2025-11-25 23:51:25,784 - INFO - Saved JSON report at out_PIA\metadata_out_20251125_235125.json
+2025-11-25 23:51:25,785 - INFO - Análisis de metadatos completado.
+
+2025-11-25 23:51:28,018 - INFO - Empezando comparación de timestamps entre archivos...
+2025-11-26 00:15:13,896 - INFO - Hashing: .Bug_the_Cat.png
+2025-11-26 00:15:13,897 - INFO - Hashing: .Descriptive Information.docx
+2025-11-26 00:15:13,907 - INFO - Hashing: .IMG_5250.jpeg
+2025-11-26 00:15:13,910 - INFO - Hashing: .IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-26 00:15:13,911 - INFO - Hashing: .MnistExamplesModified.png
+2025-11-26 00:15:13,917 - INFO - Hashing: .Queen_Victoria_-_Queen_Victoria_in_1863.png
+2025-11-26 00:15:13,919 - INFO - Hashing: .Sample.pdf
+2025-11-26 00:15:13,920 - INFO - Hashing: .ascii-art.txt
+2025-11-26 00:15:13,920 - INFO - Hashing: .wd-spectools-word-sample-04.doc
+2025-11-26 00:15:13,922 - INFO - Hashing: 36-memory_error.jpg
+2025-11-26 00:15:13,923 - INFO - Hashing: PIA_PC.txt
+2025-11-26 00:15:13,935 - INFO - Hashing: PNG_Test.png
+2025-11-26 00:15:13,936 - INFO - Hashing: basic-data.csv
+2025-11-26 00:15:13,939 - INFO - Hashing: demo.docx
+2025-11-26 00:15:13,940 - INFO - Hashing: lizard.png
+2025-11-26 00:15:13,940 - INFO - Hashing: nosotros.jpg
+2025-11-26 00:15:13,945 - INFO - Hashing: sample-report.pdf
+2025-11-26 00:15:13,945 - INFO - Hashing: sample.doc
+2025-11-26 00:15:13,949 - INFO - Record saved in ./out_PIA\PIA_hashes.pickle
+2025-11-26 00:15:13,955 - INFO - CSV saved in ./out_PIA\PIA_T2_hashes.csv
+2025-11-26 00:15:30,979 - INFO - No changes detected in files.
+2025-11-26 00:15:30,983 - INFO - CSV saved in ./out_PIA\PIA_T2_CHECKhashes.csv
+2025-11-26 00:15:30,989 - INFO - Record saved in ./out_PIA\PIA_hashes_20251126_001530.pickle
+2025-11-26 00:15:46,374 - INFO - Analizando metadatos...
+2025-11-26 00:15:46,377 - WARNING - PNG file does not have exif data.
+2025-11-26 00:15:46,403 - WARNING - PNG file does not have exif data.
+2025-11-26 00:15:46,405 - WARNING - PNG file does not have exif data.
+2025-11-26 00:15:46,428 - WARNING - PNG file does not have exif data.
+2025-11-26 00:15:46,429 - WARNING - PNG file does not have exif data.
+2025-11-26 00:15:46,433 - INFO - ran a total of 17 'work' type functions
+2025-11-26 00:15:46,440 - INFO - Reporte de correlación (metadata_report.json) guardado en: out_PIA\metadata_report.json
+2025-11-26 00:15:46,440 - INFO - Registro previo encontrado. Comparando con la ejecución anterior...
+
+2025-11-26 00:15:46,446 - INFO - Entered make_picke function
+2025-11-26 00:15:46,451 - INFO - Updated base registry at out_PIA\metadata_out.pickle
+2025-11-26 00:15:46,451 - INFO - Entered make_json function
+2025-11-26 00:15:46,454 - INFO - Saved JSON report at out_PIA\metadata_out_20251126_001546.json
+2025-11-26 00:15:46,455 - INFO - Análisis de metadatos completado.
+
+2025-11-26 00:15:54,340 - INFO - Iniciando comparación de datos...
+2025-11-26 00:15:54,346 - ERROR - Error al convertir metadata_report.json a CSV: [Errno 13] Permission denied: 'C:\\Users\\Latitude 3520\\OneDrive\\Escritorio\\out_PIA\\metadata_report.csv'
+2025-11-26 00:21:32,176 - ERROR - The previous record was not found. Use PIA_T2_Hashes.py to create PIA_hashes.pickle first.
+2025-11-26 00:21:42,736 - INFO - Analizando metadatos...
+2025-11-26 00:21:42,737 - WARNING - PNG file does not have exif data.
+2025-11-26 00:21:42,749 - WARNING - PNG file does not have exif data.
+2025-11-26 00:21:42,753 - WARNING - PNG file does not have exif data.
+2025-11-26 00:21:42,774 - WARNING - PNG file does not have exif data.
+2025-11-26 00:21:42,775 - WARNING - PNG file does not have exif data.
+2025-11-26 00:21:42,782 - INFO - ran a total of 17 'work' type functions
+2025-11-26 00:21:42,792 - INFO - Reporte de correlación (metadata_report.json) guardado en: out_PIA\metadata_report.json
+2025-11-26 00:21:42,793 - INFO - Entered make_picke function
+2025-11-26 00:21:42,802 - INFO - Updated base registry at out_PIA\metadata_out.pickle
+2025-11-26 00:21:42,803 - INFO - Entered make_json function
+2025-11-26 00:21:42,807 - INFO - Saved JSON report at out_PIA\metadata_out_20251126_002142.json
+2025-11-26 00:21:42,807 - INFO - Análisis de metadatos completado.
+
+2025-11-26 00:21:53,707 - INFO - Iniciando comparación de datos...
+2025-11-26 00:21:53,710 - ERROR - Error al convertir metadata_report.json a CSV: [Errno 13] Permission denied: 'C:\\Users\\Latitude 3520\\OneDrive\\Escritorio\\out_PIA\\metadata_report.csv'
+2025-11-26 00:22:18,055 - INFO - Hashing: .Bug_the_Cat.png
+2025-11-26 00:22:18,055 - INFO - Hashing: .Descriptive Information.docx
+2025-11-26 00:22:18,067 - INFO - Hashing: .IMG_5250.jpeg
+2025-11-26 00:22:18,070 - INFO - Hashing: .IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-26 00:22:18,071 - INFO - Hashing: .MnistExamplesModified.png
+2025-11-26 00:22:18,074 - INFO - Hashing: .Queen_Victoria_-_Queen_Victoria_in_1863.png
+2025-11-26 00:22:18,074 - INFO - Hashing: .Sample.pdf
+2025-11-26 00:22:18,075 - INFO - Hashing: .ascii-art.txt
+2025-11-26 00:22:18,075 - INFO - Hashing: .wd-spectools-word-sample-04.doc
+2025-11-26 00:22:18,077 - INFO - Hashing: 36-memory_error.jpg
+2025-11-26 00:22:18,078 - INFO - Hashing: PIA_PC.txt
+2025-11-26 00:22:18,091 - INFO - Hashing: PNG_Test.png
+2025-11-26 00:22:18,092 - INFO - Hashing: basic-data.csv
+2025-11-26 00:22:18,095 - INFO - Hashing: demo.docx
+2025-11-26 00:22:18,095 - INFO - Hashing: lizard.png
+2025-11-26 00:22:18,096 - INFO - Hashing: nosotros.jpg
+2025-11-26 00:22:18,102 - INFO - Hashing: sample-report.pdf
+2025-11-26 00:22:18,103 - INFO - Hashing: sample.doc
+2025-11-26 00:22:18,106 - INFO - Record saved in ./out_PIA\PIA_hashes.pickle
+2025-11-26 00:22:18,109 - INFO - CSV saved in ./out_PIA\PIA_T2_hashes.csv
+2025-11-26 00:27:42,664 - INFO - Hashing: .Bug_the_Cat.png
+2025-11-26 00:27:42,664 - INFO - Hashing: .Descriptive Information.docx
+2025-11-26 00:27:42,674 - INFO - Hashing: .IMG_5250.jpeg
+2025-11-26 00:27:42,677 - INFO - Hashing: .IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-26 00:27:42,678 - INFO - Hashing: .MnistExamplesModified.png
+2025-11-26 00:27:42,681 - INFO - Hashing: .Queen_Victoria_-_Queen_Victoria_in_1863.png
+2025-11-26 00:27:42,682 - INFO - Hashing: .Sample.pdf
+2025-11-26 00:27:42,682 - INFO - Hashing: .ascii-art.txt
+2025-11-26 00:27:42,683 - INFO - Hashing: .wd-spectools-word-sample-04.doc
+2025-11-26 00:27:42,686 - INFO - Hashing: 36-memory_error.jpg
+2025-11-26 00:27:42,687 - INFO - Hashing: PIA_PC.txt
+2025-11-26 00:27:42,700 - INFO - Hashing: PNG_Test.png
+2025-11-26 00:27:42,701 - INFO - Hashing: basic-data.csv
+2025-11-26 00:27:42,704 - INFO - Hashing: demo.docx
+2025-11-26 00:27:42,705 - INFO - Hashing: lizard.png
+2025-11-26 00:27:42,706 - INFO - Hashing: nosotros.jpg
+2025-11-26 00:27:42,710 - INFO - Hashing: sample-report.pdf
+2025-11-26 00:27:42,710 - INFO - Hashing: sample.doc
+2025-11-26 00:27:42,713 - INFO - Record saved in ./out_PIA\PIA_hashes.pickle
+2025-11-26 00:27:42,717 - INFO - CSV saved in ./out_PIA\PIA_T2_hashes.csv
+2025-11-26 00:28:04,025 - INFO - No changes detected in files.
+2025-11-26 00:28:04,028 - INFO - CSV saved in ./out_PIA\PIA_T2_CHECKhashes.csv
+2025-11-26 00:28:04,030 - INFO - Record saved in ./out_PIA\PIA_hashes_20251126_002804.pickle
+2025-11-26 00:28:10,083 - INFO - Analizando metadatos...
+2025-11-26 00:28:10,085 - WARNING - PNG file does not have exif data.
+2025-11-26 00:28:10,109 - WARNING - PNG file does not have exif data.
+2025-11-26 00:28:10,111 - WARNING - PNG file does not have exif data.
+2025-11-26 00:28:10,135 - WARNING - PNG file does not have exif data.
+2025-11-26 00:28:10,138 - WARNING - PNG file does not have exif data.
+2025-11-26 00:28:10,143 - INFO - ran a total of 17 'work' type functions
+2025-11-26 00:28:10,154 - INFO - Reporte de correlación (metadata_report.json) guardado en: out_PIA\metadata_report.json
+2025-11-26 00:28:10,154 - INFO - Registro previo encontrado. Comparando con la ejecución anterior...
+
+2025-11-26 00:28:10,158 - INFO - Entered make_picke function
+2025-11-26 00:28:10,162 - INFO - Updated base registry at out_PIA\metadata_out.pickle
+2025-11-26 00:28:10,163 - INFO - Entered make_json function
+2025-11-26 00:28:10,166 - INFO - Saved JSON report at out_PIA\metadata_out_20251126_002810.json
+2025-11-26 00:28:10,167 - INFO - Análisis de metadatos completado.
+
+2025-11-26 00:28:12,045 - INFO - Iniciando comparación de datos...
+2025-11-26 00:28:12,059 - ERROR - Error al convertir metadata_report.json a CSV: [Errno 13] Permission denied: 'C:\\Users\\Latitude 3520\\OneDrive\\Escritorio\\out_PIA\\metadata_report.csv'
+2025-11-26 01:50:07,182 - INFO - Hashing: .Bug_the_Cat.png
+2025-11-26 01:50:07,183 - INFO - Hashing: .Descriptive Information.docx
+2025-11-26 01:50:07,192 - INFO - Hashing: .IMG_5250.jpeg
+2025-11-26 01:50:07,196 - INFO - Hashing: .IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-26 01:50:07,197 - INFO - Hashing: .MnistExamplesModified.png
+2025-11-26 01:50:07,201 - INFO - Hashing: .Queen_Victoria_-_Queen_Victoria_in_1863.png
+2025-11-26 01:50:07,201 - INFO - Hashing: .Sample.pdf
+2025-11-26 01:50:07,202 - INFO - Hashing: .ascii-art.txt
+2025-11-26 01:50:07,203 - INFO - Hashing: .wd-spectools-word-sample-04.doc
+2025-11-26 01:50:07,204 - INFO - Hashing: 36-memory_error.jpg
+2025-11-26 01:50:07,205 - INFO - Hashing: PIA_PC.txt
+2025-11-26 01:50:07,215 - INFO - Hashing: PNG_Test.png
+2025-11-26 01:50:07,216 - INFO - Hashing: basic-data.csv
+2025-11-26 01:50:07,218 - INFO - Hashing: demo.docx
+2025-11-26 01:50:07,219 - INFO - Hashing: lizard.png
+2025-11-26 01:50:07,220 - INFO - Hashing: nosotros.jpg
+2025-11-26 01:50:07,223 - INFO - Hashing: sample-report.pdf
+2025-11-26 01:50:07,224 - INFO - Hashing: sample.doc
+2025-11-26 01:50:07,227 - INFO - Record saved in ./out_PIA\PIA_hashes.pickle
+2025-11-26 01:50:07,230 - INFO - CSV saved in ./out_PIA\PIA_T2_hashes.csv
+2025-11-26 01:51:05,002 - INFO - Modified files:
+2025-11-26 01:51:05,002 - INFO -  - demo.docx
+2025-11-26 01:51:05,002 - INFO - Unchanged files:
+2025-11-26 01:51:05,002 - INFO -  = lizard.png
+2025-11-26 01:51:05,002 - INFO -  = .Bug_the_Cat.png
+2025-11-26 01:51:05,002 - INFO -  = .Queen_Victoria_-_Queen_Victoria_in_1863.png
+2025-11-26 01:51:05,002 - INFO -  = PIA_PC.txt
+2025-11-26 01:51:05,002 - INFO -  = .MnistExamplesModified.png
+2025-11-26 01:51:05,002 - INFO -  = .IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-26 01:51:05,002 - INFO -  = .IMG_5250.jpeg
+2025-11-26 01:51:05,002 - INFO -  = .wd-spectools-word-sample-04.doc
+2025-11-26 01:51:05,002 - INFO -  = .ascii-art.txt
+2025-11-26 01:51:05,002 - INFO -  = sample.doc
+2025-11-26 01:51:05,002 - INFO -  = PNG_Test.png
+2025-11-26 01:51:05,002 - INFO -  = nosotros.jpg
+2025-11-26 01:51:05,002 - INFO -  = .Sample.pdf
+2025-11-26 01:51:05,002 - INFO -  = 36-memory_error.jpg
+2025-11-26 01:51:05,003 - INFO -  = .Descriptive Information.docx
+2025-11-26 01:51:05,003 - INFO -  = sample-report.pdf
+2025-11-26 01:51:05,003 - INFO -  = basic-data.csv
+2025-11-26 01:51:05,006 - INFO - CSV saved in ./out_PIA\PIA_T2_CHECKhashes.csv
+2025-11-26 01:51:05,009 - INFO - Record saved in ./out_PIA\PIA_hashes_20251126_015105.pickle
+2025-11-26 01:52:49,886 - INFO - Hashing: .Bug_the_Cat.png
+2025-11-26 01:52:49,887 - INFO - Hashing: .Descriptive Information.docx
+2025-11-26 01:52:49,897 - INFO - Hashing: .IMG_5250.jpeg
+2025-11-26 01:52:49,899 - INFO - Hashing: .IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-26 01:52:49,900 - INFO - Hashing: .MnistExamplesModified.png
+2025-11-26 01:52:49,903 - INFO - Hashing: .Queen_Victoria_-_Queen_Victoria_in_1863.png
+2025-11-26 01:52:49,904 - INFO - Hashing: .Sample.pdf
+2025-11-26 01:52:49,904 - INFO - Hashing: .ascii-art.txt
+2025-11-26 01:52:49,905 - INFO - Hashing: .wd-spectools-word-sample-04.doc
+2025-11-26 01:52:49,906 - INFO - Hashing: 36-memory_error.jpg
+2025-11-26 01:52:49,907 - INFO - Hashing: PIA_PC.txt
+2025-11-26 01:52:49,917 - INFO - Hashing: PNG_Test.png
+2025-11-26 01:52:49,918 - INFO - Hashing: basic-data.csv
+2025-11-26 01:52:49,920 - INFO - Hashing: demo.docx
+2025-11-26 01:52:49,921 - INFO - Hashing: lizard.png
+2025-11-26 01:52:49,922 - INFO - Hashing: nosotros.jpg
+2025-11-26 01:52:49,926 - INFO - Hashing: sample-report.pdf
+2025-11-26 01:52:49,927 - INFO - Hashing: sample.doc
+2025-11-26 01:52:49,930 - INFO - Record saved in ./out_PIA\PIA_hashes.pickle
+2025-11-26 01:52:49,934 - INFO - CSV saved in ./out_PIA\PIA_T2_hashes.csv
+2025-11-26 01:53:57,007 - INFO - Modified files:
+2025-11-26 01:53:57,007 - INFO -  - demo.docx
+2025-11-26 01:53:57,007 - INFO - Unchanged files:
+2025-11-26 01:53:57,007 - INFO -  = .Descriptive Information.docx
+2025-11-26 01:53:57,007 - INFO -  = nosotros.jpg
+2025-11-26 01:53:57,007 - INFO -  = .Sample.pdf
+2025-11-26 01:53:57,007 - INFO -  = .IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-26 01:53:57,007 - INFO -  = .ascii-art.txt
+2025-11-26 01:53:57,007 - INFO -  = sample-report.pdf
+2025-11-26 01:53:57,007 - INFO -  = .IMG_5250.jpeg
+2025-11-26 01:53:57,007 - INFO -  = .Queen_Victoria_-_Queen_Victoria_in_1863.png
+2025-11-26 01:53:57,007 - INFO -  = .Bug_the_Cat.png
+2025-11-26 01:53:57,007 - INFO -  = .MnistExamplesModified.png
+2025-11-26 01:53:57,007 - INFO -  = PIA_PC.txt
+2025-11-26 01:53:57,007 - INFO -  = basic-data.csv
+2025-11-26 01:53:57,007 - INFO -  = sample.doc
+2025-11-26 01:53:57,007 - INFO -  = .wd-spectools-word-sample-04.doc
+2025-11-26 01:53:57,008 - INFO -  = lizard.png
+2025-11-26 01:53:57,008 - INFO -  = 36-memory_error.jpg
+2025-11-26 01:53:57,008 - INFO -  = PNG_Test.png
+2025-11-26 01:53:57,012 - INFO - CSV saved in ./out_PIA\PIA_T2_CHECKhashes.csv
+2025-11-26 01:53:57,015 - INFO - Record saved in ./out_PIA\PIA_hashes_20251126_015357.pickle
+2025-11-26 01:54:02,569 - INFO - Analizando metadatos...
+2025-11-26 01:54:02,571 - WARNING - PNG file does not have exif data.
+2025-11-26 01:54:02,595 - WARNING - PNG file does not have exif data.
+2025-11-26 01:54:02,598 - WARNING - PNG file does not have exif data.
+2025-11-26 01:54:02,622 - WARNING - PNG file does not have exif data.
+2025-11-26 01:54:02,623 - WARNING - PNG file does not have exif data.
+2025-11-26 01:54:02,628 - INFO - ran a total of 17 'work' type functions
+2025-11-26 01:54:02,635 - INFO - Reporte de correlación (metadata_report.json) guardado en: out_PIA\metadata_report.json
+2025-11-26 01:54:02,636 - INFO - Registro previo encontrado. Comparando con la ejecución anterior...
+
+2025-11-26 01:54:02,640 - INFO - Entered make_picke function
+2025-11-26 01:54:02,647 - INFO - Updated base registry at out_PIA\metadata_out.pickle
+2025-11-26 01:54:02,648 - INFO - Entered make_json function
+2025-11-26 01:54:02,651 - INFO - Saved JSON report at out_PIA\metadata_out_20251126_015402.json
+2025-11-26 01:54:02,652 - INFO - Análisis de metadatos completado.
+
+2025-11-26 01:57:08,874 - INFO - Hashing: .Bug_the_Cat.png
+2025-11-26 01:57:08,874 - INFO - Hashing: .Descriptive Information.docx
+2025-11-26 01:57:08,883 - INFO - Hashing: .IMG_5250.jpeg
+2025-11-26 01:57:08,886 - INFO - Hashing: .IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-26 01:57:08,887 - INFO - Hashing: .MnistExamplesModified.png
+2025-11-26 01:57:08,890 - INFO - Hashing: .Queen_Victoria_-_Queen_Victoria_in_1863.png
+2025-11-26 01:57:08,891 - INFO - Hashing: .Sample.pdf
+2025-11-26 01:57:08,891 - INFO - Hashing: .ascii-art.txt
+2025-11-26 01:57:08,892 - INFO - Hashing: .wd-spectools-word-sample-04.doc
+2025-11-26 01:57:08,893 - INFO - Hashing: 36-memory_error.jpg
+2025-11-26 01:57:08,894 - INFO - Hashing: PIA_PC.txt
+2025-11-26 01:57:08,904 - INFO - Hashing: PNG_Test.png
+2025-11-26 01:57:08,905 - INFO - Hashing: basic-data.csv
+2025-11-26 01:57:08,907 - INFO - Hashing: demo.docx
+2025-11-26 01:57:08,908 - INFO - Hashing: lizard.png
+2025-11-26 01:57:08,909 - INFO - Hashing: nosotros.jpg
+2025-11-26 01:57:08,914 - INFO - Hashing: sample-report.pdf
+2025-11-26 01:57:08,915 - INFO - Hashing: sample.doc
+2025-11-26 01:57:08,917 - INFO - Record saved in ./out_PIA\PIA_hashes.pickle
+2025-11-26 01:57:08,921 - INFO - CSV saved in ./out_PIA\PIA_T2_hashes.csv
+2025-11-26 01:57:28,333 - INFO - No changes detected in files.
+2025-11-26 01:57:28,335 - INFO - CSV saved in ./out_PIA\PIA_T2_CHECKhashes.csv
+2025-11-26 01:57:28,339 - INFO - Record saved in ./out_PIA\PIA_hashes_20251126_015728.pickle
+2025-11-26 01:57:32,474 - INFO - Analizando metadatos...
+2025-11-26 01:57:32,475 - WARNING - PNG file does not have exif data.
+2025-11-26 01:57:32,497 - WARNING - PNG file does not have exif data.
+2025-11-26 01:57:32,500 - WARNING - PNG file does not have exif data.
+2025-11-26 01:57:32,526 - WARNING - PNG file does not have exif data.
+2025-11-26 01:57:32,527 - WARNING - PNG file does not have exif data.
+2025-11-26 01:57:32,531 - INFO - ran a total of 17 'work' type functions
+2025-11-26 01:57:32,540 - INFO - Reporte de correlación (metadata_report.json) guardado en: out_PIA\metadata_report.json
+2025-11-26 01:57:32,541 - INFO - Registro previo encontrado. Comparando con la ejecución anterior...
+
+2025-11-26 01:57:32,545 - INFO - Entered make_picke function
+2025-11-26 01:57:32,551 - INFO - Updated base registry at out_PIA\metadata_out.pickle
+2025-11-26 01:57:32,551 - INFO - Entered make_json function
+2025-11-26 01:57:32,557 - INFO - Saved JSON report at out_PIA\metadata_out_20251126_015732.json
+2025-11-26 01:57:32,557 - INFO - Análisis de metadatos completado.
+
+2025-11-26 02:24:15,128 - INFO - Hashing: .Bug_the_Cat.png
+2025-11-26 02:24:15,129 - INFO - Hashing: .Descriptive Information.docx
+2025-11-26 02:24:15,148 - INFO - Hashing: .IMG_5250.jpeg
+2025-11-26 02:24:15,163 - INFO - Hashing: .IPTC-GoogleImgSrcPmd_testimg01.jpg
+2025-11-26 02:24:15,165 - INFO - Hashing: .MnistExamplesModified.png
+2025-11-26 02:24:15,175 - INFO - Hashing: .Queen_Victoria_-_Queen_Victoria_in_1863.png
+2025-11-26 02:24:15,177 - INFO - Hashing: .Sample.pdf
+2025-11-26 02:24:15,178 - INFO - Hashing: .ascii-art.txt
+2025-11-26 02:24:15,179 - INFO - Hashing: .wd-spectools-word-sample-04.doc
+2025-11-26 02:24:15,181 - INFO - Hashing: 36-memory_error.jpg
+2025-11-26 02:24:15,182 - INFO - Hashing: PIA_PC.txt
+2025-11-26 02:24:15,209 - INFO - Hashing: PNG_Test.png
+2025-11-26 02:24:15,211 - INFO - Hashing: basic-data.csv
+2025-11-26 02:24:15,224 - INFO - Hashing: demo.docx
+2025-11-26 02:24:15,226 - INFO - Hashing: lizard.png
+2025-11-26 02:24:15,228 - INFO - Hashing: nosotros.jpg
+2025-11-26 02:24:15,239 - INFO - Hashing: sample-report.pdf
+2025-11-26 02:24:15,241 - INFO - Hashing: sample.doc
+2025-11-26 02:24:15,244 - INFO - Record saved in ./out_PIA\PIA_hashes.pickle
+2025-11-26 02:24:15,246 - INFO - CSV saved in ./out_PIA\PIA_T2_hashes.csv
+2025-11-26 02:24:33,939 - INFO - No changes detected in files.
+2025-11-26 02:24:33,943 - INFO - CSV saved in ./out_PIA\PIA_T2_CHECKhashes.csv
+2025-11-26 02:24:33,946 - INFO - Record saved in ./out_PIA\PIA_hashes_20251126_022433.pickle
+2025-11-26 02:24:38,328 - INFO - Analizando metadatos...
+2025-11-26 02:24:38,329 - WARNING - PNG file does not have exif data.
+2025-11-26 02:24:38,381 - WARNING - PNG file does not have exif data.
+2025-11-26 02:24:38,384 - WARNING - PNG file does not have exif data.
+2025-11-26 02:24:38,409 - WARNING - PNG file does not have exif data.
+2025-11-26 02:24:38,410 - WARNING - PNG file does not have exif data.
+2025-11-26 02:24:38,414 - INFO - ran a total of 17 'work' type functions
+2025-11-26 02:24:38,422 - INFO - Reporte de correlación (metadata_report.json) guardado en: out_PIA\metadata_report.json
+2025-11-26 02:24:38,423 - INFO - Registro previo encontrado. Comparando con la ejecución anterior...
+
+2025-11-26 02:24:38,430 - INFO - Entered make_picke function
+2025-11-26 02:24:38,436 - INFO - Updated base registry at out_PIA\metadata_out.pickle
+2025-11-26 02:24:38,436 - INFO - Entered make_json function
+2025-11-26 02:24:38,442 - INFO - Saved JSON report at out_PIA\metadata_out_20251126_022438.json
+2025-11-26 02:24:38,443 - INFO - Análisis de metadatos completado.
+

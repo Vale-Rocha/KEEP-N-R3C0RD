@@ -1,0 +1,7 @@
+﻿"TimeEpoch","Id","LevelDisplayName","ProviderName","Message"
+"1764145293","10029","Error","Microsoft-Windows-DistributedCOM","Se agotó el tiempo de espera de la activación de Windows.Media.Capture.Internal.AppCaptureShell de CLSID esperando que el servicio BcastDVRUserService_2c43ac8 se detuviera."
+"1764105574","21","Error","Microsoft-Windows-HAL","No se estableció el reloj en tiempo real de hardware debido a un error en la evaluación del método de dispositivo de alarma y hora ACPI.  Estado: 0xC00000BB."
+"1764105574","20","Error","Microsoft-Windows-HAL","No se consultó el reloj en tiempo real de hardware debido a un error en la evaluación del método de dispositivo de alarma y hora ACPI.  Estado: 0xC00000BB."
+"1764105574","21","Error","Microsoft-Windows-HAL","No se estableció el reloj en tiempo real de hardware debido a un error en la evaluación del método de dispositivo de alarma y hora ACPI.  Estado: 0xC00000BB."
+"1764105574","20","Error","Microsoft-Windows-HAL","No se consultó el reloj en tiempo real de hardware debido a un error en la evaluación del método de dispositivo de alarma y hora ACPI.  Estado: 0xC00000BB."
+"1764105519","10317","Error","Microsoft-Windows-NDIS","Minipuerto Microsoft Wi-Fi Direct Virtual Adapter #2, {17c699d1-88a0-4744-a2be-5aded67fcbdc}, tuvo el evento Fatal error: The miniport has failed a power transition to operational power"

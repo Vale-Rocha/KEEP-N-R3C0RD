@@ -1,0 +1,212 @@
+[
+    {
+        "File Path": ".Bug_the_Cat.png",
+        "File Type": "EXIF",
+        "Metadata": {
+            "datetime_epoch": null,
+            "size": 599307,
+            "geolocalization": "None",
+            "Creation Date": 1762748191,
+            "Modified Date": 1762748191
+        }
+    },
+    {
+        "File Path": ".IMG_5250.jpeg",
+        "File Type": "EXIF",
+        "Metadata": {
+            "datetime_epoch": null,
+            "size": 6992903,
+            "geolocalization": {
+                "Latitude(decimal)": 38.92620833333333,
+                "Longitud (decimal)": -94.6226111111111,
+                "Lat ref": "N",
+                "Lon ref": "W"
+            },
+            "Creation Date": 1762747272,
+            "Modified Date": 1762739835
+        }
+    },
+    {
+        "File Path": ".IPTC-GoogleImgSrcPmd_testimg01.jpg",
+        "File Type": "EXIF",
+        "Metadata": {
+            "datetime_epoch": null,
+            "size": 2003501,
+            "geolocalization": null,
+            "Creation Date": 1762747753,
+            "Modified Date": 1762747753
+        }
+    },
+    {
+        "File Path": ".MnistExamplesModified.png",
+        "File Type": "EXIF",
+        "Metadata": {
+            "datetime_epoch": null,
+            "size": 71811,
+            "geolocalization": "None",
+            "Creation Date": 1762748953,
+            "Modified Date": 1762748953
+        }
+    },
+    {
+        "File Path": ".Queen_Victoria_-_Queen_Victoria_in_1863.png",
+        "File Type": "EXIF",
+        "Metadata": {
+            "datetime_epoch": null,
+            "size": 2021827,
+            "geolocalization": "None",
+            "Creation Date": 1762748574,
+            "Modified Date": 1762748575
+        }
+    },
+    {
+        "File Path": "36-memory_error.jpg",
+        "File Type": "EXIF",
+        "Metadata": {
+            "datetime_epoch": null,
+            "size": 865978,
+            "geolocalization": null,
+            "Creation Date": 1762747320,
+            "Modified Date": 1762746560
+        }
+    },
+    {
+        "File Path": "lizard.png",
+        "File Type": "EXIF",
+        "Metadata": {
+            "datetime_epoch": null,
+            "size": 134264,
+            "geolocalization": "None",
+            "Creation Date": 1762746718,
+            "Modified Date": 1762746718
+        }
+    },
+    {
+        "File Path": "nosotros.jpg",
+        "File Type": "EXIF",
+        "Metadata": {
+            "datetime_epoch": null,
+            "size": 193806,
+            "geolocalization": null,
+            "Creation Date": 1762747449,
+            "Modified Date": 1762747449
+        }
+    },
+    {
+        "File Path": "PNG_Test.png",
+        "File Type": "EXIF",
+        "Metadata": {
+            "datetime_epoch": null,
+            "size": 7365648,
+            "geolocalization": "None",
+            "Creation Date": 1762748883,
+            "Modified Date": 1762748885
+        }
+    },
+    {
+        "File Path": ".Descriptive Information.docx",
+        "File Type": "DOCX",
+        "Metadata": {
+            "title": "",
+            "author": "lingmeng",
+            "creation_date_epoch": 1375097940,
+            "last_modified_by": "SOIS",
+            "modification_date_epoch": 1375198980,
+            "size": 17180,
+            "Creation Date": 1762745094,
+            "Modified Date": 1762744961
+        }
+    },
+    {
+        "File Path": "demo.docx",
+        "File Type": "DOCX",
+        "Metadata": {
+            "title": "DOCX Demo",
+            "author": "Kovid Goyal",
+            "creation_date_epoch": 1370418960,
+            "last_modified_by": "VALERIA ROCHA SOLIS",
+            "modification_date_epoch": 1764143580,
+            "size": 1384010,
+            "Creation Date": 1762744863,
+            "Modified Date": 1764143623
+        }
+    },
+    {
+        "File Path": ".Sample.pdf",
+        "File Type": "PDF",
+        "Metadata": {
+            "title": "PDF Metadata Sample",
+            "author": "Nigel Maddocks",
+            "creation_date_epoch": 1440146541,
+            "modification_date_epoch": 1440146731,
+            "size": 37545,
+            "xmp metadata": "None",
+            "creator": "Acrobat PDFMaker 15 for Word",
+            "Creation Date": 1762745463,
+            "Modified Date": 1762740107
+        }
+    },
+    {
+        "File Path": "sample-report.pdf",
+        "File Type": "PDF",
+        "Metadata": {
+            "title": "Multi-Page Report PDF (A4 Size) | Sample-Files.com",
+            "author": "Jericho",
+            "creation_date_epoch": 1743229004,
+            "modification_date_epoch": 1743229002,
+            "size": 2515221,
+            "xmp metadata": "None",
+            "creator": "Canva",
+            "Creation Date": 1762745632,
+            "Modified Date": 1762745608
+        }
+    },
+    {
+        "File Path": ".wd-spectools-word-sample-04.doc",
+        "File Type": "OLE",
+        "Metadata": {
+            "size": 71680,
+            "created_time_epoch": 1762745219,
+            "modified_time_epoch": 1762745180,
+            "Creation Date": 1762745219,
+            "Modified Date": 1762745180
+        }
+    },
+    {
+        "File Path": "sample.doc",
+        "File Type": "OLE",
+        "Metadata": {
+            "size": 98304,
+            "created_time_epoch": 1762745144,
+            "modified_time_epoch": 1762745116,
+            "Creation Date": 1762745144,
+            "Modified Date": 1762745116
+        }
+    },
+    {
+        "File Path": ".ascii-art.txt",
+        "File Type": "TXT",
+        "Metadata": {
+            "size": 232,
+            "uid": "N/A",
+            "gid": "N/A",
+            "birthtime_epoch": 1762745886,
+            "file_attributes": 34,
+            "Creation Date": 1762745886,
+            "Modified Date": 1762745854
+        }
+    },
+    {
+        "File Path": "PIA_PC.txt",
+        "File Type": "TXT",
+        "Metadata": {
+            "size": 5176,
+            "uid": "N/A",
+            "gid": "N/A",
+            "birthtime_epoch": 1762744756,
+            "file_attributes": 34,
+            "Creation Date": 1762744756,
+            "Modified Date": 1762144578
+        }
+    }
+]

@@ -1,0 +1,236 @@
+2025-11-26 00:33:55,231 - INFO - Iniciando comparación de datos...
+2025-11-26 00:33:55,241 - INFO - Conversión de metadata_report.json a CSV completada.
+2025-11-26 00:33:55,250 - INFO - Carga de archivos CSV completada.
+2025-11-26 00:33:55,250 - ERROR - La columna 'Metadata' no se encuentra en metadata_report.csv
+2025-11-26 00:34:49,314 - INFO - Iniciando comparación de datos...
+2025-11-26 00:34:49,325 - INFO - Conversión de metadata_report.json a CSV completada.
+2025-11-26 00:34:49,331 - INFO - Carga de archivos CSV completada.
+2025-11-26 00:34:49,331 - ERROR - La columna 'Metadata' no se encuentra en metadata_report.csv
+2025-11-26 00:34:57,137 - INFO - Iniciando comparación de datos...
+2025-11-26 00:34:57,146 - INFO - Conversión de metadata_report.json a CSV completada.
+2025-11-26 00:34:57,150 - INFO - Carga de archivos CSV completada.
+2025-11-26 00:34:57,150 - ERROR - La columna 'Metadata' no se encuentra en metadata_report.csv
+2025-11-26 00:35:41,612 - INFO - Iniciando comparación de datos...
+2025-11-26 00:35:41,622 - INFO - Conversión de metadata_report.json a CSV completada.
+2025-11-26 00:35:41,626 - INFO - Carga de archivos CSV completada.
+2025-11-26 00:35:41,626 - ERROR - La columna 'Metadata' no se encuentra en metadata_report.csv
+2025-11-26 00:36:12,225 - INFO - Iniciando comparación de datos...
+2025-11-26 00:36:12,234 - INFO - Conversión de metadata_report.json a CSV completada.
+2025-11-26 00:36:12,238 - INFO - Carga de archivos CSV completada.
+2025-11-26 00:36:12,238 - ERROR - La columna 'Metadata' no se encuentra en metadata_report.csv
+2025-11-26 00:36:22,381 - INFO - Iniciando comparación de datos...
+2025-11-26 00:36:22,390 - INFO - Conversión de metadata_report.json a CSV completada.
+2025-11-26 00:36:22,394 - INFO - Carga de archivos CSV completada.
+2025-11-26 00:36:22,394 - ERROR - La columna 'Metadata' no se encuentra en metadata_report.csv
+2025-11-26 00:37:56,681 - INFO - Iniciando comparación de datos...
+2025-11-26 00:37:56,693 - INFO - Conversión de metadata_report.json a CSV completada.
+2025-11-26 00:37:56,696 - INFO - Carga de archivos CSV completada.
+2025-11-26 00:37:56,696 - ERROR - La columna 'Metadata' no se encuentra en metadata_report.csv
+2025-11-26 00:38:12,327 - INFO - Iniciando comparación de datos...
+2025-11-26 00:38:12,335 - INFO - Conversión de metadata_report.json a CSV completada.
+2025-11-26 00:38:12,338 - INFO - Carga de archivos CSV completada.
+2025-11-26 00:38:12,338 - ERROR - La columna 'Metadata' no se encuentra en metadata_report.csv
+2025-11-26 00:38:27,843 - INFO - Iniciando comparación de datos...
+2025-11-26 00:38:27,851 - INFO - Conversión de metadata_report.json a CSV completada.
+2025-11-26 00:38:27,854 - INFO - Carga de archivos CSV completada.
+2025-11-26 00:38:27,854 - ERROR - La columna 'Metadata' no se encuentra en metadata_report.csv
+2025-11-26 00:39:14,597 - INFO - Iniciando comparación de datos...
+2025-11-26 00:39:14,607 - INFO - Conversión de metadata_report.json a CSV completada.
+2025-11-26 00:39:14,611 - INFO - Carga de archivos CSV completada.
+2025-11-26 00:39:14,611 - ERROR - La columna 'Metadata' no se encuentra en metadata_report.csv
+2025-11-26 00:50:30,746 - INFO - Iniciando comparación de datos...
+2025-11-26 00:50:30,749 - INFO - Carga de metadata_report.csv completada.
+2025-11-26 00:50:30,749 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:50:30,750 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:50:30,750 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:50:30,751 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:50:30,751 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:50:30,752 - INFO - Expansión de columnas exif, docx, pdf, ole, txt completada.
+2025-11-26 00:50:30,760 - INFO - Carga de login_report.csv y winlog_events.csv completada.
+2025-11-26 00:50:35,031 - INFO - Iniciando comparación de datos...
+2025-11-26 00:50:35,033 - INFO - Carga de metadata_report.csv completada.
+2025-11-26 00:50:35,034 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:50:35,035 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:50:35,035 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:50:35,035 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:50:35,036 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:50:35,037 - INFO - Expansión de columnas exif, docx, pdf, ole, txt completada.
+2025-11-26 00:50:35,040 - INFO - Carga de login_report.csv y winlog_events.csv completada.
+2025-11-26 00:50:39,122 - INFO - Iniciando comparación de datos...
+2025-11-26 00:50:39,125 - INFO - Carga de metadata_report.csv completada.
+2025-11-26 00:50:39,125 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:50:39,126 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:50:39,126 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:50:39,126 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:50:39,126 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:50:39,128 - INFO - Expansión de columnas exif, docx, pdf, ole, txt completada.
+2025-11-26 00:50:39,131 - INFO - Carga de login_report.csv y winlog_events.csv completada.
+2025-11-26 00:50:57,929 - INFO - Iniciando comparación de datos...
+2025-11-26 00:50:57,932 - INFO - Carga de metadata_report.csv completada.
+2025-11-26 00:50:57,932 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:50:57,933 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:50:57,933 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:50:57,934 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:50:57,934 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:50:57,935 - INFO - Expansión de columnas exif, docx, pdf, ole, txt completada.
+2025-11-26 00:50:57,938 - INFO - Carga de login_report.csv y winlog_events.csv completada.
+2025-11-26 00:51:23,778 - INFO - Iniciando comparación de datos...
+2025-11-26 00:51:23,781 - INFO - Carga de metadata_report.csv completada.
+2025-11-26 00:51:23,781 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:51:23,781 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:51:23,782 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:51:23,782 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:51:23,782 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:51:23,784 - INFO - Expansión de columnas exif, docx, pdf, ole, txt completada.
+2025-11-26 00:51:23,787 - INFO - Carga de login_report.csv y winlog_events.csv completada.
+2025-11-26 00:51:57,236 - INFO - Iniciando comparación de datos...
+2025-11-26 00:51:57,239 - INFO - Carga de metadata_report.csv completada.
+2025-11-26 00:51:57,239 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:51:57,240 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:51:57,240 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:51:57,240 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:51:57,241 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:51:57,242 - INFO - Expansión de columnas exif, docx, pdf, ole, txt completada.
+2025-11-26 00:51:57,273 - INFO - Carga de login_report.csv y winlog_events.csv completada.
+2025-11-26 00:52:11,307 - INFO - Iniciando comparación de datos...
+2025-11-26 00:52:11,309 - INFO - Carga de metadata_report.csv completada.
+2025-11-26 00:52:11,310 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:52:11,310 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:52:11,311 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:52:11,311 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:52:11,311 - ERROR - Error parsing metadata: Invalid \escape: line 1 column 18 (char 17)
+2025-11-26 00:52:11,313 - INFO - Expansión de columnas exif, docx, pdf, ole, txt completada.
+2025-11-26 00:52:11,378 - INFO - Carga de login_report.csv y winlog_events.csv completada.
+2025-11-26 01:00:57,859 - INFO - Iniciando comparación de datos...
+2025-11-26 01:00:57,868 - INFO - Conversión de metadata_report.json a CSV completada.
+2025-11-26 01:00:57,871 - INFO - Carga de archivos CSV completada.
+2025-11-26 01:00:57,871 - ERROR - La columna 'Metadata' no se encuentra en metadata_report.csv
+2025-11-26 01:01:10,468 - INFO - Iniciando comparación de datos...
+2025-11-26 01:01:10,476 - INFO - Conversión de metadata_report.json a CSV completada.
+2025-11-26 01:01:10,479 - INFO - Carga de archivos CSV completada.
+2025-11-26 01:01:10,479 - ERROR - La columna 'Metadata' no se encuentra en metadata_report.csv
+2025-11-26 01:03:38,317 - INFO - Iniciando comparación de datos...
+2025-11-26 01:03:38,323 - ERROR - Error al convertir metadata_report.json a CSV: [Errno 13] Permission denied: 'C:\\Users\\Latitude 3520\\OneDrive\\Escritorio\\out_PIA\\metadata_report.csv'
+2025-11-26 01:03:41,903 - INFO - Iniciando comparación de datos...
+2025-11-26 01:03:41,909 - ERROR - Error al convertir metadata_report.json a CSV: [Errno 13] Permission denied: 'C:\\Users\\Latitude 3520\\OneDrive\\Escritorio\\out_PIA\\metadata_report.csv'
+2025-11-26 01:03:55,937 - INFO - Iniciando comparación de datos...
+2025-11-26 01:03:55,942 - ERROR - Error al convertir metadata_report.json a CSV: [Errno 13] Permission denied: 'C:\\Users\\Latitude 3520\\OneDrive\\Escritorio\\out_PIA\\metadata_report.csv'
+2025-11-26 01:04:31,173 - INFO - Iniciando comparación de datos...
+2025-11-26 01:04:31,183 - INFO - Conversión de metadata_report.json a CSV completada.
+2025-11-26 01:04:31,186 - INFO - Carga de archivos CSV completada.
+2025-11-26 01:04:31,186 - ERROR - La columna 'Metadata' no se encuentra en metadata_report.csv
+2025-11-26 01:16:16,619 - INFO - Iniciando comparación de datos...
+2025-11-26 01:16:16,623 - INFO - JSON cargado correctamente.
+2025-11-26 01:16:16,626 - INFO - Carga de login_report.csv y winlog_events.csv completada.
+2025-11-26 01:16:16,626 - ERROR - La columna 'Metadata' no se encuentra en el JSON de metadatos.
+2025-11-26 01:16:23,689 - INFO - Iniciando comparación de datos...
+2025-11-26 01:16:23,692 - INFO - JSON cargado correctamente.
+2025-11-26 01:16:23,696 - INFO - Carga de login_report.csv y winlog_events.csv completada.
+2025-11-26 01:16:23,696 - ERROR - La columna 'Metadata' no se encuentra en el JSON de metadatos.
+2025-11-26 01:17:22,440 - INFO - Iniciando comparación de datos...
+2025-11-26 01:17:22,443 - INFO - JSON cargado correctamente.
+2025-11-26 01:17:22,446 - INFO - Carga de login_report.csv y winlog_events.csv completada.
+2025-11-26 01:17:22,446 - ERROR - La columna 'Metadata' no se encuentra en el JSON de metadatos.
+2025-11-26 01:17:28,693 - INFO - Iniciando comparación de datos...
+2025-11-26 01:17:28,697 - INFO - JSON cargado correctamente.
+2025-11-26 01:17:28,699 - INFO - Carga de login_report.csv y winlog_events.csv completada.
+2025-11-26 01:17:28,700 - ERROR - La columna 'Metadata' no se encuentra en el JSON de metadatos.
+2025-11-26 01:18:26,716 - INFO - Iniciando comparación de datos...
+2025-11-26 01:18:26,720 - INFO - JSON cargado correctamente.
+2025-11-26 01:18:26,723 - INFO - Carga de login_report.csv y winlog_events.csv completada.
+2025-11-26 01:18:26,723 - ERROR - La columna 'Metadata' no se encuentra en el JSON de metadatos.
+2025-11-26 01:18:51,027 - INFO - Iniciando comparación de datos...
+2025-11-26 01:18:51,031 - INFO - JSON cargado correctamente.
+2025-11-26 01:18:51,034 - INFO - Carga de login_report.csv y winlog_events.csv completada.
+2025-11-26 01:18:51,034 - ERROR - La columna 'Metadata' no se encuentra en el JSON de metadatos.
+2025-11-26 01:20:22,472 - INFO - Iniciando comparación de datos...
+2025-11-26 01:20:22,476 - INFO - JSON cargado correctamente.
+2025-11-26 01:20:22,478 - INFO - Carga de login_report.csv y winlog_events.csv completada.
+2025-11-26 01:20:22,480 - INFO - Expansión de la columna Metadata completada.
+2025-11-26 01:20:22,482 - INFO - Normalización de la columna Metadata completada.
+2025-11-26 01:20:22,484 - INFO - Fusión de login_report.csv con metadata completada.
+2025-11-26 01:20:22,485 - INFO - Fusión de winlog_events.csv con metadata completada.
+2025-11-26 01:20:26,601 - INFO - Iniciando comparación de datos...
+2025-11-26 01:20:26,605 - INFO - JSON cargado correctamente.
+2025-11-26 01:20:26,608 - INFO - Carga de login_report.csv y winlog_events.csv completada.
+2025-11-26 01:20:26,610 - INFO - Expansión de la columna Metadata completada.
+2025-11-26 01:20:26,613 - INFO - Normalización de la columna Metadata completada.
+2025-11-26 01:20:26,615 - INFO - Fusión de login_report.csv con metadata completada.
+2025-11-26 01:20:26,616 - INFO - Fusión de winlog_events.csv con metadata completada.
+2025-11-26 01:20:56,687 - INFO - Iniciando comparación de datos...
+2025-11-26 01:20:56,691 - INFO - JSON cargado correctamente.
+2025-11-26 01:20:56,693 - INFO - Carga de login_report.csv y winlog_events.csv completada.
+2025-11-26 01:20:56,695 - INFO - Expansión de la columna Metadata completada.
+2025-11-26 01:20:56,697 - INFO - Normalización de la columna Metadata completada.
+2025-11-26 01:20:56,699 - INFO - Fusión de login_report.csv con metadata completada.
+2025-11-26 01:20:56,700 - INFO - Fusión de winlog_events.csv con metadata completada.
+2025-11-26 01:21:00,551 - INFO - Iniciando comparación de datos...
+2025-11-26 01:21:00,558 - INFO - JSON cargado correctamente.
+2025-11-26 01:21:00,562 - INFO - Carga de login_report.csv y winlog_events.csv completada.
+2025-11-26 01:21:00,565 - INFO - Expansión de la columna Metadata completada.
+2025-11-26 01:21:00,567 - INFO - Normalización de la columna Metadata completada.
+2025-11-26 01:21:00,569 - INFO - Fusión de login_report.csv con metadata completada.
+2025-11-26 01:21:00,571 - INFO - Fusión de winlog_events.csv con metadata completada.
+2025-11-26 01:22:38,042 - INFO - Iniciando comparación de datos...
+2025-11-26 01:22:38,046 - INFO - JSON cargado correctamente.
+2025-11-26 01:22:38,048 - INFO - Carga de login_report.csv y winlog_events.csv completada.
+2025-11-26 01:22:38,050 - INFO - Expansión de la columna Metadata completada.
+2025-11-26 01:22:38,053 - INFO - Normalización de la columna Metadata completada.
+2025-11-26 01:22:38,055 - INFO - Fusión de login_report.csv con metadata completada.
+2025-11-26 01:22:38,056 - INFO - Fusión de winlog_events.csv con metadata completada.
+2025-11-26 01:22:42,619 - INFO - Iniciando comparación de datos...
+2025-11-26 01:22:42,623 - INFO - JSON cargado correctamente.
+2025-11-26 01:22:42,626 - INFO - Carga de login_report.csv y winlog_events.csv completada.
+2025-11-26 01:22:42,628 - INFO - Expansión de la columna Metadata completada.
+2025-11-26 01:22:42,630 - INFO - Normalización de la columna Metadata completada.
+2025-11-26 01:22:42,632 - INFO - Fusión de login_report.csv con metadata completada.
+2025-11-26 01:22:42,633 - INFO - Fusión de winlog_events.csv con metadata completada.
+2025-11-26 01:24:12,999 - INFO - Iniciando comparación de datos...
+2025-11-26 01:24:13,002 - INFO - JSON cargado correctamente.
+2025-11-26 01:24:13,004 - INFO - Carga de login_report.csv y winlog_events.csv completada.
+2025-11-26 01:24:13,006 - INFO - Expansión de la columna Metadata completada.
+2025-11-26 01:24:13,008 - INFO - Normalización de la columna Metadata completada.
+2025-11-26 01:24:13,010 - INFO - Fusión de login_report.csv con metadata completada.
+2025-11-26 01:24:13,011 - INFO - Fusión de winlog_events.csv con metadata completada.
+2025-11-26 01:24:18,441 - INFO - Iniciando comparación de datos...
+2025-11-26 01:24:18,446 - INFO - JSON cargado correctamente.
+2025-11-26 01:24:18,449 - INFO - Carga de login_report.csv y winlog_events.csv completada.
+2025-11-26 01:24:18,450 - INFO - Expansión de la columna Metadata completada.
+2025-11-26 01:24:18,453 - INFO - Normalización de la columna Metadata completada.
+2025-11-26 01:24:18,455 - INFO - Fusión de login_report.csv con metadata completada.
+2025-11-26 01:24:18,457 - INFO - Fusión de winlog_events.csv con metadata completada.
+2025-11-26 01:25:03,118 - INFO - Iniciando comparación de datos...
+2025-11-26 01:25:03,123 - INFO - JSON cargado correctamente.
+2025-11-26 01:25:03,161 - INFO - Carga de login_report.csv y winlog_events.csv completada.
+2025-11-26 01:25:03,166 - INFO - Expansión de la columna Metadata completada.
+2025-11-26 01:25:03,190 - INFO - Normalización de la columna Metadata completada.
+2025-11-26 01:25:03,193 - INFO - Fusión de login_report.csv con metadata completada.
+2025-11-26 01:25:03,194 - INFO - Fusión de winlog_events.csv con metadata completada.
+2025-11-26 01:25:07,532 - INFO - Iniciando comparación de datos...
+2025-11-26 01:25:07,536 - INFO - JSON cargado correctamente.
+2025-11-26 01:25:07,539 - INFO - Carga de login_report.csv y winlog_events.csv completada.
+2025-11-26 01:25:07,541 - INFO - Expansión de la columna Metadata completada.
+2025-11-26 01:25:07,544 - INFO - Normalización de la columna Metadata completada.
+2025-11-26 01:25:07,547 - INFO - Fusión de login_report.csv con metadata completada.
+2025-11-26 01:25:07,549 - INFO - Fusión de winlog_events.csv con metadata completada.
+2025-11-26 01:25:57,127 - INFO - Iniciando comparación de datos...
+2025-11-26 01:25:57,131 - INFO - JSON cargado correctamente.
+2025-11-26 01:25:57,133 - INFO - Carga de login_report.csv y winlog_events.csv completada.
+2025-11-26 01:25:57,135 - INFO - Expansión de la columna Metadata completada.
+2025-11-26 01:25:57,138 - INFO - Normalización de la columna Metadata completada.
+2025-11-26 01:25:57,140 - INFO - Fusión de login_report.csv con metadata completada.
+2025-11-26 01:25:57,141 - INFO - Fusión de winlog_events.csv con metadata completada.
+2025-11-26 01:26:01,146 - INFO - Iniciando comparación de datos...
+2025-11-26 01:26:01,150 - INFO - JSON cargado correctamente.
+2025-11-26 01:26:01,153 - INFO - Carga de login_report.csv y winlog_events.csv completada.
+2025-11-26 01:26:01,155 - INFO - Expansión de la columna Metadata completada.
+2025-11-26 01:26:01,158 - INFO - Normalización de la columna Metadata completada.
+2025-11-26 01:26:01,160 - INFO - Fusión de login_report.csv con metadata completada.
+2025-11-26 01:26:01,161 - INFO - Fusión de winlog_events.csv con metadata completada.
+2025-11-26 01:28:24,432 - INFO - Iniciando comparación de datos...
+2025-11-26 01:28:24,436 - INFO - JSON cargado correctamente.
+2025-11-26 01:28:24,440 - INFO - Carga de login_report.csv y winlog_events.csv completada.
+2025-11-26 01:28:24,442 - INFO - Expansión de la columna Metadata completada.
+2025-11-26 01:28:24,446 - INFO - Normalización de la columna Metadata completada.
+2025-11-26 01:28:24,448 - INFO - Fusión de login_report.csv con metadata completada.
+2025-11-26 01:28:24,450 - INFO - Fusión de winlog_events.csv con metadata completada.
