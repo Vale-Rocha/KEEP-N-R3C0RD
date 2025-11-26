@@ -89,5 +89,5 @@ Es la primera vez que nos enfrentamos a un proyecto de tamaño considerable, per
 
 > Confirmamos que la última actualización del repositorio fue realizada **antes del 26 de noviembre a las 23:59 hrs (hora local de Monterrey)**.
 
-- Fecha del último commit: [2025-11-26 03:30]
+- Fecha del último commit: [2025-11-26 03:45]
 - Usuario responsable del cierre: Valeria Rocha Solís
