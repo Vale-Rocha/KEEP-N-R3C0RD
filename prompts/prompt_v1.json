@@ -1,5 +1,5 @@
 {
-  "version": "3.0" , #(se está considerando la versión 4.0)
+  "version": "3.0",
   "tarea": "Generar un análisis forense preliminar con base en archivos CSV proporcionados.",
   "template": {
     "archivos_entrada": {
@@ -7,7 +7,6 @@
       "hash_status": "Contenido del archivo PIA_T2_CHECKhashes.csv"
     },
     "objetivo": "Elaborar hipótesis no conclusivas basadas en los datos proporcionados.",
-
     "estructura_respuesta": [
       "1. Resumen inicial",
       "2. Hallazgos relevantes",
@@ -16,7 +15,6 @@
       "5. Hipótesis plausibles (NO conclusiones)",
       "6. Recomendaciones y advertencias sobre la modificación no autorizada de archivos."
     ]
-
   },
   "instrucciones": [
     "Lee y analiza cuidadosamente los datos proporcionados en los archivos CSV.",
