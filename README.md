@@ -2,7 +2,7 @@
 
 ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.txt)
-[![Estado del proyecto](https://img.shields.io/badge/Estado-Preliminar-blue)](#Preliminar)
+[![Estado del proyecto](https://img.shields.io/badge/Estado-Completed-blue)](#Preliminar)
 [![Lenguaje principal](https://img.shields.io/badge/Lenguaje-Python%2FPowerShell-green)](#contenido-disponible)
 
 
